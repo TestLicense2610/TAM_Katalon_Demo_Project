@@ -17,14 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Mobile.startApplication('41737d08-66f1-4a17-be67-d35a8c6152af', true)
-Mobile.startApplication('/Users/linh.nguyen/Documents/Mobile Apps/Android/IT Glossary_1.5_Apkpure.apk', false)
+Mobile.startApplication('41737d08-66f1-4a17-be67-d35a8c6152af', true)
 
-Mobile.tap(findTestObject('Object Repository/TestCloud_Record/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('Object Repository/TestCloud_Record/android.widget.TextView - About App'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - About App'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/TestCloud_Record/android.widget.TextView - This app contains a wide collection of IT terminology, abbreviations and MCQs, specially designed for students'), 
+Mobile.verifyElementText(findTestObject('Object Repository/android.widget.TextView - This app contains a wide collection of IT terminology, abbreviations and MCQs, specially designed for students'), 
     'This app contains a wide collection of IT terminology, abbreviations and MCQ\'s, specially designed for students.')
 
 Mobile.closeApplication()
