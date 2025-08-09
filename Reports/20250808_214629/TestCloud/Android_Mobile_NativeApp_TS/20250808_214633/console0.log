@@ -1,0 +1,48 @@
+2025-08-08 21:47:05.010 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TestCloud/Android_Mobile_NativeApp_TS
+2025-08-08 21:47:05.438 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Linh Nguyen
+2025-08-08 21:47:05.445 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TAM_Katalon_Demo_Project
+2025-08-08 21:47:05.448 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = linh.nguyen - localhost
+2025-08-08 21:47:05.456 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-08-08 21:47:05.464 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-08-08 21:47:05.469 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.1.0
+2025-08-08 21:47:08.065 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-08 21:47:08.065 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TestCloud/Mobile_Android_NativeApp_TC
+2025-08-08 21:47:09.876 DEBUG testcase.Mobile_Android_NativeApp_TC     - 1: startApplication("/Users/linh.nguyen/Documents/Mobile Apps/Android/IT Glossary_1.5_Apkpure.apk", true)
+2025-08-08 21:47:11.774 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Overriding application: '/Users/linh.nguyen/Documents/Mobile Apps/Android/IT Glossary_1.5_Apkpure.apk' by '41737d08-66f1-4a17-be67-d35a8c6152af'
+2025-08-08 21:47:11.780 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Override application info: '{"id":"41737d08-66f1-4a17-be67-d35a8c6152af","organizationId":"2458420","name":"IT Glossary","platform":"ANDROID","status":"READY","size":3010500,"storagePath":"bcde7735-a65b-47a5-a7c2-5694680cb085","uploadedDate":"2025-08-08T09:57:17.517612","createdDate":"2025-08-08T09:57:17.517612","updatedDate":"2025-08-08T09:57:24.032837","fileName":"IT Glossary_1.5_Apkpure.apk","metadata":{"identifier":"com.saiftech.papoo.itglossary","name":"IT Glossary","version":"1.5"}}'
+2025-08-08 21:47:11.787 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Starting application: '41737d08-66f1-4a17-be67-d35a8c6152af'
+2025-08-08 21:47:12.472 INFO  c.k.k.core.appium.util.AppiumDriverUtil  - There are uncompatible capabilities keys which will be replaced: app=appium:app
+2025-08-08 21:47:49.263 INFO  c.k.k.c.a.driver.AppiumRequestService    - appiumVersion = 1.0.0
+2025-08-08 21:47:49.278 INFO  c.k.k.c.a.driver.AppiumRequestService    - appiumServerStatus = {"value":{"build":{"version":"1.0.0"},"message":"Katalon Automation Hub is up and running","ready":true}}
+2025-08-08 21:47:50.003 INFO  c.k.k.c.a.driver.AppiumDriverManager     - remoteDriverUrl = https://token:eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpZTlDMnN4ZjZ4czczSHJxY0QyejRxcVVzNEFpOWVzNXR5SVVKYmRTYW04In0.eyJleHAiOjE3NTQ4MzcxNzksImlhdCI6MTc1NDY2NDM3OSwianRpIjoiYTVlOWE2ZDctM2NjMC00MDhkLWE0ZmUtOWYzODU3MWM5MTNlIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5rYXRhbG9uLmNvbS9yZWFsbXMva2F0YWxvbiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI2YjNjYWZhNi1mMzRmLTQ4NjItOTk0ZS00ZGMwZDllODIxY2YiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXRhbG9uLWFkbWluIiwic2lkIjoiNmRlNjVjNzYtZmNjMS00YmUwLWExMTktZDM1YjY3NDFmOGYwIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL215LmthdGFsb24uY29tIiwiaHR0cHM6Ly9hZG1pbi5rYXRhbG9uLmNvbSJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLWthdGFsb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInVwZGF0ZWRfdGltZXN0YW1wIjoxNzUzODc0MDY3NTk2LCJsYXN0X2xvZ2luIjoxNzU0NjYxOTQxMjExLCJuYW1lIjoiTGluaCBOZ3V5ZW4iLCJjcmVhdGVkX3RpbWVzdGFtcCI6MTc1Mzg0MzQ5Mjc2NCwicHJlZmVycmVkX3VzZXJuYW1lIjoidG9saW5obmd1eWVuMjYxMEBnbWFpbC5jb20iLCJnaXZlbl9uYW1lIjoiTGluaCIsImZhbWlseV9uYW1lIjoiTmd1eWVuIiwiZW1haWwiOiJ0b2xpbmhuZ3V5ZW4yNjEwQGdtYWlsLmNvbSJ9.Xp3VOgyGinucUERs7relf2JkWqKMndlcQAqgTCm7iIqsMwpqBwROSWZrhv-VzqmQ6jA8ghdM0WhsY2XdZMbMjqsG8wq_z65edzgAdAoWpYS7ZwGzNn9TuW-y3yHGhMSbukzoHuOuIoBMLHG-_jt558VB4jiaRahex-BO3nNJ9SYMd4-euen-7jmWAPIfiGhO7BpdJNf_exGbkHQzwAw1byW8cA9STE9b-XbgVPoSGGvdQBCYtwFcw--Vd74WwpY1qyi1xEFst7PLLwgkQCwSR6xAOSe10pDQOhaqhsY9w21NtnTf7LGl_UErGMhxh7MjXvzoD358l-GPSLYhL0QBJg@testcloud.katalon.com/wd/hub
+2025-08-08 21:47:50.041 INFO  c.k.k.c.a.driver.AppiumDriverManager     - desiredCapabilities = {
+  "app": "41737d08-66f1-4a17-be67-d35a8c6152af",
+  "appium:deviceName": "Samsung Galaxy S24 Ultra",
+  "platformName": "ANDROID",
+  "appium:platformVersion": "14",
+  "katalon:options": {
+    "metadata": {
+      "organizationId": "2458420",
+      "accountId": "1572382",
+      "channel": "kre;v\u003d10.2.1",
+      "projectId": "2420294"
+    },
+    "appiumVersion": "2.11.2",
+    "executionMode": "queue",
+    "usingTunnel": false
+  }
+}
+2025-08-08 21:47:50.144 INFO  c.k.k.c.a.driver.AppiumDriverManager     - katalon:caps = {
+  "deviceName": "Samsung Galaxy S24 Ultra",
+  "executionId": "53c36ce6-0bcb-4ef5-9fd1-4c13189e3407",
+  "executionSessionId": "c70b4931-fb7a-4cba-ae74-12187f5661d4"
+}
+2025-08-08 21:47:50.153 INFO  c.k.k.c.a.driver.AppiumDriverManager     - deviceName = Samsung Galaxy S24 Ultra
+2025-08-08 21:47:51.107 DEBUG testcase.Mobile_Android_NativeApp_TC     - 2: tap(findTestObject("Object Repository/android.widget.TextView - About App"), 0)
+2025-08-08 21:47:52.141 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-08-08 21:47:57.391 DEBUG testcase.Mobile_Android_NativeApp_TC     - 3: verifyElementText(findTestObject("Object Repository/android.widget.TextView - This app contains a wide collection of IT terminology, abbreviations and MCQs, specially designed for students"), "This app contains a wide collection of IT terminology, abbreviations and MCQ's, specially designed for students.")
+2025-08-08 21:48:01.322 DEBUG testcase.Mobile_Android_NativeApp_TC     - 4: closeApplication()
+2025-08-08 21:48:05.256 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TestCloud/Mobile_Android_NativeApp_TC
+2025-08-08 21:48:05.297 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-08-08 21:48:05.297 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TestCloud/Android_Mobile_NativeApp_TS
+2025-08-08 21:48:05.297 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

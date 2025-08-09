@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Katalon</name>
+   <tag></tag>
+   <elementGuidId>c9737214-6982-40df-b409-acf518354501</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' aa-Item ') and (position() = 1)]//*[(name() = 'span') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' highlineText_avzO ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.aa-Item:nth-child(1) span:nth-child(2) .highlineText_avzO</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;KatalonHelp&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>dd39eafc-3e4b-4c7c-bc74-5a567c9330ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>highlineText_avzO</value>
+      <webElementGuid>eaaabbb6-f32f-43a5-a9bd-b4d6bb64acc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Katalon</value>
+      <webElementGuid>1c7d5332-4559-46a8-9925-6de3d42a5391</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9ef41e785ccf28ee1f8803193eee3af3</value>
+      <webElementGuid>0d13d872-9ee7-4fb2-bae8-e060b13f4a48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' aa-Item ') and (position() = 1)]//*[(name() = 'span') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' highlineText_avzO ')]</value>
+      <webElementGuid>12f2b568-366f-463c-8a17-40d4f1360153</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' aa-Item ') and (position() = 1)]//*[(name() = 'span') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' highlineText_avzO ')]</value>
+      <webElementGuid>ebfa4a55-2886-4d16-b0e4-baab7bce52e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Katalon' or . = 'Katalon')]</value>
+      <webElementGuid>7078ec82-64d2-425c-af5c-8502ed0a95f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-08-08T10:02:12.531920Z</date>
+  <millis>1754647332531</millis>
+  <nanos>920000</nanos>
+  <sequence>1</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TestCloud/Android_Mobile_NativeApp_TS</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">3</property>
+  <property name="name">Android_Mobile_NativeApp_TS</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/TestCloud/Android_Mobile_NativeApp_TS</property>
+</record>
+<record>
+  <date>2025-08-08T10:02:12.591979Z</date>
+  <millis>1754647332591</millis>
+  <nanos>979000</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = linh.nguyen - localhost</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">linh.nguyen - localhost</property>
+</record>
+<record>
+  <date>2025-08-08T10:02:12.596267Z</date>
+  <millis>1754647332596</millis>
+  <nanos>267000</nanos>
+  <sequence>5</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2025-08-08T10:02:12.597897Z</date>
+  <millis>1754647332597</millis>
+  <nanos>897000</nanos>
+  <sequence>7</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 127.0.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">127.0.0.1</property>
+</record>
+<record>
+  <date>2025-08-08T10:02:12.600515Z</date>
+  <millis>1754647332600</millis>
+  <nanos>515000</nanos>
+  <sequence>9</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 10.1.1.0</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">10.1.1.0</property>
+</record>
+<record>
+  <date>2025-08-08T10:02:13.162446Z</date>
+  <millis>1754647333162</millis>
+  <nanos>446000</nanos>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TestCloud/Mobile_Android_NativeApp_TC</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/TestCloud/Mobile_Android_NativeApp_TC</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/TestCloud/Mobile_Android_NativeApp_TC</property>
+  <property name="source">\Users\linh.nguyen\git\TAM_Katalon_Demo_Project\Test Cases\TestCloud\Mobile_Android_NativeApp_TC.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2025-08-08T10:02:13.467861Z</date>
+  <millis>1754647333467</millis>
+  <nanos>861000</nanos>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-08-08T10:02:13.572705Z</date>
+  <millis>1754647333572</millis>
+  <nanos>705000</nanos>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : GLUE = [&amp;quot;bddProject_StepDefinition&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">29</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-08-08T10:02:13.621974Z</date>
+  <millis>1754647333621</millis>
+  <nanos>974000</nanos>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : GLUE = [&amp;quot;bddProject_StepDefinition&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-08-08T10:02:13.622717Z</date>
+  <millis>1754647333622</millis>
+  <nanos>717000</nanos>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-08-08T10:02:13.993270Z</date>
+  <millis>1754647333993</millis>
+  <nanos>270000</nanos>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(&amp;quot;/Users/linh.nguyen/Documents/Mobile Apps/Android/IT Glossary_1.5_Apkpure.apk&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-08-08T10:02:14.804108Z</date>
+  <millis>1754647334804</millis>
+  <nanos>108000</nanos>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Overriding application: &amp;apos;/Users/linh.nguyen/Documents/Mobile Apps/Android/IT Glossary_1.5_Apkpure.apk&amp;apos; by &amp;apos;41737d08-66f1-4a17-be67-d35a8c6152af&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-08-08T10:02:14.810791Z</date>
+  <millis>1754647334810</millis>
+  <nanos>791000</nanos>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Override application info: &amp;apos;{&amp;quot;id&amp;quot;:&amp;quot;41737d08-66f1-4a17-be67-d35a8c6152af&amp;quot;,&amp;quot;organizationId&amp;quot;:&amp;quot;2458420&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;IT Glossary&amp;quot;,&amp;quot;platform&amp;quot;:&amp;quot;ANDROID&amp;quot;,&amp;quot;status&amp;quot;:&amp;quot;READY&amp;quot;,&amp;quot;size&amp;quot;:3010500,&amp;quot;storagePath&amp;quot;:&amp;quot;bcde7735-a65b-47a5-a7c2-5694680cb085&amp;quot;,&amp;quot;uploadedDate&amp;quot;:&amp;quot;2025-08-08T09:57:17.517612&amp;quot;,&amp;quot;createdDate&amp;quot;:&amp;quot;2025-08-08T09:57:17.517612&amp;quot;,&amp;quot;updatedDate&amp;quot;:&amp;quot;2025-08-08T09:57:24.032837&amp;quot;,&amp;quot;fileName&amp;quot;:&amp;quot;IT Glossary_1.5_Apkpure.apk&amp;quot;,&amp;quot;metadata&amp;quot;:{&amp;quot;identifier&amp;quot;:&amp;quot;com.saiftech.papoo.itglossary&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;IT Glossary&amp;quot;,&amp;quot;version&amp;quot;:&amp;quot;1.5&amp;quot;}}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-08-08T10:02:14.816739Z</date>
+  <millis>1754647334816</millis>
+  <nanos>739000</nanos>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting application: &amp;apos;41737d08-66f1-4a17-be67-d35a8c6152af&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-08-08T10:02:47.842754Z</date>
+  <millis>1754647367842</millis>
+  <nanos>754000</nanos>
+  <sequence>29</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.0.0</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumVersion">1.0.0</property>
+</record>
+<record>
+  <date>2025-08-08T10:02:47.846359Z</date>
+  <millis>1754647367846</millis>
+  <nanos>359000</nanos>
+  <sequence>31</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumServerStatus = {&amp;quot;value&amp;quot;:{&amp;quot;build&amp;quot;:{&amp;quot;version&amp;quot;:&amp;quot;1.0.0&amp;quot;},&amp;quot;message&amp;quot;:&amp;quot;Katalon Automation Hub is up and running&amp;quot;,&amp;quot;ready&amp;quot;:true}}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumServerStatus">{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.0.0&quot;},&quot;message&quot;:&quot;Katalon Automation Hub is up and running&quot;,&quot;ready&quot;:true}}</property>
+</record>
+<record>
+  <date>2025-08-08T10:02:49.546174Z</date>
+  <millis>1754647369546</millis>
+  <nanos>174000</nanos>
+  <sequence>33</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>remoteDriverUrl = https://token:eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpZTlDMnN4ZjZ4czczSHJxY0QyejRxcVVzNEFpOWVzNXR5SVVKYmRTYW04In0.eyJleHAiOjE3NTQ4MTA0OTYsImlhdCI6MTc1NDYzNzY5NiwianRpIjoiY2YzMjc4M2ItOTMyYi00ZGFiLThmZGMtNWQxYmY3M2MyZmYwIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5rYXRhbG9uLmNvbS9yZWFsbXMva2F0YWxvbiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI2YjNjYWZhNi1mMzRmLTQ4NjItOTk0ZS00ZGMwZDllODIxY2YiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXRhbG9uLWFkbWluIiwic2lkIjoiMWY2MWUzZjItMWZmYi00NjlkLWI2YWYtMDIyNmZlNjQyNGU4IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL215LmthdGFsb24uY29tIiwiaHR0cHM6Ly9hZG1pbi5rYXRhbG9uLmNvbSJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLWthdGFsb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInVwZGF0ZWRfdGltZXN0YW1wIjoxNzUzODc0MDY3NTk2LCJsYXN0X2xvZ2luIjoxNzU0NjMyODkxNDQ1LCJuYW1lIjoiTGluaCBOZ3V5ZW4iLCJjcmVhdGVkX3RpbWVzdGFtcCI6MTc1Mzg0MzQ5Mjc2NCwicHJlZmVycmVkX3VzZXJuYW1lIjoidG9saW5obmd1eWVuMjYxMEBnbWFpbC5jb20iLCJnaXZlbl9uYW1lIjoiTGluaCIsImZhbWlseV9uYW1lIjoiTmd1eWVuIiwiZW1haWwiOiJ0b2xpbmhuZ3V5ZW4yNjEwQGdtYWlsLmNvbSJ9.jNhAYVPH3ns4MYrKXezjTMLobeRBmwixn2trXSTs_wuliDsZDoHi4oBgxcaagtYm2c0ntCo7oMn_a52nIz3uuMkDRIiDcb1MqlgqTS-3VtAGtHCUU1uiVmLHHltE8iVhmJykQAWN1AiEmqI2vcMtE6RFoYz7l9_3b78qi9T0u3mlZcFlVUB9jOHoCzdTvHTMyX4G-9Ps9Zxlzw9Jl4qk-t8JL5qpJyEITjcjuhoGmbIjU7QDiPjot8HEhm9UlowRHUqpthc4Yx3HIg4Ju8spHBU1VD65iKGHZ2zPaD06n0cZdU3WOnWRg46q42is8YyDWKpFytC_m6wWJrn1Qr1SvQ@testcloud.katalon.com/wd/hub</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remoteDriverUrl">https://token:eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpZTlDMnN4ZjZ4czczSHJxY0QyejRxcVVzNEFpOWVzNXR5SVVKYmRTYW04In0.eyJleHAiOjE3NTQ4MTA0OTYsImlhdCI6MTc1NDYzNzY5NiwianRpIjoiY2YzMjc4M2ItOTMyYi00ZGFiLThmZGMtNWQxYmY3M2MyZmYwIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5rYXRhbG9uLmNvbS9yZWFsbXMva2F0YWxvbiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI2YjNjYWZhNi1mMzRmLTQ4NjItOTk0ZS00ZGMwZDllODIxY2YiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXRhbG9uLWFkbWluIiwic2lkIjoiMWY2MWUzZjItMWZmYi00NjlkLWI2YWYtMDIyNmZlNjQyNGU4IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL215LmthdGFsb24uY29tIiwiaHR0cHM6Ly9hZG1pbi5rYXRhbG9uLmNvbSJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLWthdGFsb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInVwZGF0ZWRfdGltZXN0YW1wIjoxNzUzODc0MDY3NTk2LCJsYXN0X2xvZ2luIjoxNzU0NjMyODkxNDQ1LCJuYW1lIjoiTGluaCBOZ3V5ZW4iLCJjcmVhdGVkX3RpbWVzdGFtcCI6MTc1Mzg0MzQ5Mjc2NCwicHJlZmVycmVkX3VzZXJuYW1lIjoidG9saW5obmd1eWVuMjYxMEBnbWFpbC5jb20iLCJnaXZlbl9uYW1lIjoiTGluaCIsImZhbWlseV9uYW1lIjoiTmd1eWVuIiwiZW1haWwiOiJ0b2xpbmhuZ3V5ZW4yNjEwQGdtYWlsLmNvbSJ9.jNhAYVPH3ns4MYrKXezjTMLobeRBmwixn2trXSTs_wuliDsZDoHi4oBgxcaagtYm2c0ntCo7oMn_a52nIz3uuMkDRIiDcb1MqlgqTS-3VtAGtHCUU1uiVmLHHltE8iVhmJykQAWN1AiEmqI2vcMtE6RFoYz7l9_3b78qi9T0u3mlZcFlVUB9jOHoCzdTvHTMyX4G-9Ps9Zxlzw9Jl4qk-t8JL5qpJyEITjcjuhoGmbIjU7QDiPjot8HEhm9UlowRHUqpthc4Yx3HIg4Ju8spHBU1VD65iKGHZ2zPaD06n0cZdU3WOnWRg46q42is8YyDWKpFytC_m6wWJrn1Qr1SvQ@testcloud.katalon.com/wd/hub</property>
+</record>
+<record>
+  <date>2025-08-08T10:02:49.555049Z</date>
+  <millis>1754647369555</millis>
+  <nanos>49000</nanos>
+  <sequence>35</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>desiredCapabilities = {
+  &amp;quot;app&amp;quot;: &amp;quot;41737d08-66f1-4a17-be67-d35a8c6152af&amp;quot;,
+  &amp;quot;appium:deviceName&amp;quot;: &amp;quot;Samsung Galaxy S24 Ultra&amp;quot;,
+  &amp;quot;platformName&amp;quot;: &amp;quot;ANDROID&amp;quot;,
+  &amp;quot;appium:platformVersion&amp;quot;: &amp;quot;14&amp;quot;,
+  &amp;quot;katalon:options&amp;quot;: {
+    &amp;quot;metadata&amp;quot;: {
+      &amp;quot;organizationId&amp;quot;: &amp;quot;2458420&amp;quot;,
+      &amp;quot;accountId&amp;quot;: &amp;quot;1572382&amp;quot;,
+      &amp;quot;channel&amp;quot;: &amp;quot;kse;v\u003d10.1.1&amp;quot;
+    },
+    &amp;quot;appiumVersion&amp;quot;: &amp;quot;2.11.2&amp;quot;,
+    &amp;quot;executionMode&amp;quot;: &amp;quot;queue&amp;quot;,
+    &amp;quot;usingTunnel&amp;quot;: false
+  }
+}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="desiredCapabilities">{
+  &quot;app&quot;: &quot;41737d08-66f1-4a17-be67-d35a8c6152af&quot;,
+  &quot;appium:deviceName&quot;: &quot;Samsung Galaxy S24 Ultra&quot;,
+  &quot;platformName&quot;: &quot;ANDROID&quot;,
+  &quot;appium:platformVersion&quot;: &quot;14&quot;,
+  &quot;katalon:options&quot;: {
+    &quot;metadata&quot;: {
+      &quot;organizationId&quot;: &quot;2458420&quot;,
+      &quot;accountId&quot;: &quot;1572382&quot;,
+      &quot;channel&quot;: &quot;kse;v\u003d10.1.1&quot;
+    },
+    &quot;appiumVersion&quot;: &quot;2.11.2&quot;,
+    &quot;executionMode&quot;: &quot;queue&quot;,
+    &quot;usingTunnel&quot;: false
+  }
+}</property>
+</record>
+<record>
+  <date>2025-08-08T10:02:49.567450Z</date>
+  <millis>1754647369567</millis>
+  <nanos>450000</nanos>
+  <sequence>37</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalon:caps = {
+  &amp;quot;deviceName&amp;quot;: &amp;quot;Samsung Galaxy S24 Ultra&amp;quot;,
+  &amp;quot;executionId&amp;quot;: &amp;quot;60af8b1d-ed73-4ce9-ad3d-02b2c0cf8dd1&amp;quot;,
+  &amp;quot;executionSessionId&amp;quot;: &amp;quot;8894edd5-937c-4980-b49e-ed98ec58fcde&amp;quot;
+}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalon:caps">{
+  &quot;deviceName&quot;: &quot;Samsung Galaxy S24 Ultra&quot;,
+  &quot;executionId&quot;: &quot;60af8b1d-ed73-4ce9-ad3d-02b2c0cf8dd1&quot;,
+  &quot;executionSessionId&quot;: &quot;8894edd5-937c-4980-b49e-ed98ec58fcde&quot;
+}</property>
+</record>
+<record>
+  <date>2025-08-08T10:02:49.569533Z</date>
+  <millis>1754647369569</millis>
+  <nanos>533000</nanos>
+  <sequence>39</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = Samsung Galaxy S24 Ultra</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">Samsung Galaxy S24 Ultra</property>
+</record>
+<record>
+  <date>2025-08-08T10:02:50.264825Z</date>
+  <millis>1754647370264</millis>
+  <nanos>825000</nanos>
+  <sequence>40</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started application: &amp;apos;41737d08-66f1-4a17-be67-d35a8c6152af&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-08-08T10:02:50.302461Z</date>
+  <millis>1754647370302</millis>
+  <nanos>461000</nanos>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(&amp;quot;/Users/linh.nguyen/Documents/Mobile Apps/Android/IT Glossary_1.5_Apkpure.apk&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-08-08T10:02:50.303302Z</date>
+  <millis>1754647370303</millis>
+  <nanos>302000</nanos>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(&amp;quot;Object Repository/android.widget.ImageView&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-08-08T10:02:50.637734Z</date>
+  <millis>1754647370637</millis>
+  <nanos>734000</nanos>
+  <sequence>47</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-08-08T10:03:26.896391Z</date>
+  <millis>1754647406896</millis>
+  <nanos>391000</nanos>
+  <sequence>52</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object Object Repository/android.widget.ImageView not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/android.widget.ImageView not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1461)
+	at Mobile_Android_NativeApp_TC.run(Mobile_Android_NativeApp_TC:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1754647316973.run(TempTestSuite1754647316973.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="attachment">1754647401811.png</property>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Object Object Repository/android.widget.ImageView not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1461)
+	at Mobile_Android_NativeApp_TC.run(Mobile_Android_NativeApp_TC:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1754647316973.run(TempTestSuite1754647316973.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.testops.TestOpsLogHelper.handleFailedLogEntry(TestOpsLogHelper.java:112)
+com.kms.katalon.core.logging.KeywordLogger.logFailed(KeywordLogger.java:290)
+com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:43)
+com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1461)
+Mobile_Android_NativeApp_TC.run(Mobile_Android_NativeApp_TC:22)
+</property>
+  <property name="failed.exception.message">Object Object Repository/android.widget.ImageView not found</property>
+</record>
+<record>
+  <date>2025-08-08T10:03:31.209395Z</date>
+  <millis>1754647411209</millis>
+  <nanos>395000</nanos>
+  <sequence>57</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Failed to tap on element &amp;apos;Object Repository/android.widget.ImageView&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to tap on element &amp;apos;Object Repository/android.widget.ImageView&amp;apos;
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1461)
+	at Mobile_Android_NativeApp_TC.run(Mobile_Android_NativeApp_TC:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1754647316973.run(TempTestSuite1754647316973.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/android.widget.ImageView not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 20 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="attachment">1754647406906.png</property>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Object Object Repository/android.widget.ImageView not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1461)
+	at Mobile_Android_NativeApp_TC.run(Mobile_Android_NativeApp_TC:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1754647316973.run(TempTestSuite1754647316973.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.message">Object Object Repository/android.widget.ImageView not found</property>
+</record>
+<record>
+  <date>2025-08-08T10:03:31.216232Z</date>
+  <millis>1754647411216</millis>
+  <nanos>232000</nanos>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(&amp;quot;Object Repository/android.widget.ImageView&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-08-08T10:03:31.220150Z</date>
+  <millis>1754647411220</millis>
+  <nanos>150000</nanos>
+  <sequence>64</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TestCloud/Mobile_Android_NativeApp_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element &amp;apos;Object Repository/android.widget.ImageView&amp;apos;
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1461)
+	at Mobile_Android_NativeApp_TC.run(Mobile_Android_NativeApp_TC:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1754647316973.run(TempTestSuite1754647316973.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/android.widget.ImageView not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 20 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/android.widget.ImageView'</message>
+    <frame>
+      <class>com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain</class>
+      <method>stepFailed</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain</class>
+      <method>runKeyword</method>
+      <line>34</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.mobile.keyword.builtin.TapKeyword</class>
+      <method>tap</method>
+      <line>51</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.mobile.keyword.builtin.TapKeyword</class>
+      <method>execute</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords</class>
+      <method>tap</method>
+      <line>1461</line>
+    </frame>
+    <frame>
+      <class>Mobile_Android_NativeApp_TC</class>
+      <method>run</method>
+      <line>22</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>71</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>160</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>107</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>180</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1754647316973</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Object Object Repository/android.widget.ImageView not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1461)
+	at Mobile_Android_NativeApp_TC.run(Mobile_Android_NativeApp_TC:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1754647316973.run(TempTestSuite1754647316973.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.message">Object Object Repository/android.widget.ImageView not found</property>
+</record>
+<record>
+  <date>2025-08-08T10:03:31.228154Z</date>
+  <millis>1754647411228</millis>
+  <nanos>154000</nanos>
+  <sequence>67</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TestCloud/Mobile_Android_NativeApp_TC</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: true,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2025-08-08T10:03:31.253529Z</date>
+  <millis>1754647411253</millis>
+  <nanos>529000</nanos>
+  <sequence>70</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TestCloud/Mobile_Android_NativeApp_TC</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">2</property>
+  <property name="name">Test Cases/TestCloud/Mobile_Android_NativeApp_TC</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/TestCloud/Mobile_Android_NativeApp_TC</property>
+  <property name="source">\Users\linh.nguyen\git\TAM_Katalon_Demo_Project\Test Cases\TestCloud\Mobile_Android_NativeApp_TC.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">1</property>
+</record>
+<record>
+  <date>2025-08-08T10:03:31.415489Z</date>
+  <millis>1754647411415</millis>
+  <nanos>489000</nanos>
+  <sequence>72</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-08-08T10:03:31.419199Z</date>
+  <millis>1754647411419</millis>
+  <nanos>199000</nanos>
+  <sequence>74</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : GLUE = [&amp;quot;bddProject_StepDefinition&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">29</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-08-08T10:03:31.421061Z</date>
+  <millis>1754647411421</millis>
+  <nanos>61000</nanos>
+  <sequence>76</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : GLUE = [&amp;quot;bddProject_StepDefinition&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-08-08T10:03:31.422142Z</date>
+  <millis>1754647411422</millis>
+  <nanos>142000</nanos>
+  <sequence>77</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-08-08T10:03:31.438595Z</date>
+  <millis>1754647411438</millis>
+  <nanos>595000</nanos>
+  <sequence>78</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(&amp;quot;/Users/linh.nguyen/Documents/Mobile Apps/Android/IT Glossary_1.5_Apkpure.apk&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-08-08T10:03:31.463Z</date>
+  <millis>1754647411463</millis>
+  <sequence>80</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Overriding application: &amp;apos;/Users/linh.nguyen/Documents/Mobile Apps/Android/IT Glossary_1.5_Apkpure.apk&amp;apos; by &amp;apos;41737d08-66f1-4a17-be67-d35a8c6152af&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-08-08T10:03:31.465807Z</date>
+  <millis>1754647411465</millis>
+  <nanos>807000</nanos>
+  <sequence>82</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Override application info: &amp;apos;{&amp;quot;id&amp;quot;:&amp;quot;41737d08-66f1-4a17-be67-d35a8c6152af&amp;quot;,&amp;quot;organizationId&amp;quot;:&amp;quot;2458420&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;IT Glossary&amp;quot;,&amp;quot;platform&amp;quot;:&amp;quot;ANDROID&amp;quot;,&amp;quot;status&amp;quot;:&amp;quot;READY&amp;quot;,&amp;quot;size&amp;quot;:3010500,&amp;quot;storagePath&amp;quot;:&amp;quot;bcde7735-a65b-47a5-a7c2-5694680cb085&amp;quot;,&amp;quot;uploadedDate&amp;quot;:&amp;quot;2025-08-08T09:57:17.517612&amp;quot;,&amp;quot;createdDate&amp;quot;:&amp;quot;2025-08-08T09:57:17.517612&amp;quot;,&amp;quot;updatedDate&amp;quot;:&amp;quot;2025-08-08T09:57:24.032837&amp;quot;,&amp;quot;fileName&amp;quot;:&amp;quot;IT Glossary_1.5_Apkpure.apk&amp;quot;,&amp;quot;metadata&amp;quot;:{&amp;quot;identifier&amp;quot;:&amp;quot;com.saiftech.papoo.itglossary&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;IT Glossary&amp;quot;,&amp;quot;version&amp;quot;:&amp;quot;1.5&amp;quot;}}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-08-08T10:03:31.467774Z</date>
+  <millis>1754647411467</millis>
+  <nanos>774000</nanos>
+  <sequence>84</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting application: &amp;apos;41737d08-66f1-4a17-be67-d35a8c6152af&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-08-08T10:04:27.967674Z</date>
+  <millis>1754647467967</millis>
+  <nanos>674000</nanos>
+  <sequence>87</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.0.0</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumVersion">1.0.0</property>
+</record>
+<record>
+  <date>2025-08-08T10:04:27.974371Z</date>
+  <millis>1754647467974</millis>
+  <nanos>371000</nanos>
+  <sequence>89</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumServerStatus = {&amp;quot;value&amp;quot;:{&amp;quot;build&amp;quot;:{&amp;quot;version&amp;quot;:&amp;quot;1.0.0&amp;quot;},&amp;quot;message&amp;quot;:&amp;quot;Katalon Automation Hub is up and running&amp;quot;,&amp;quot;ready&amp;quot;:true}}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumServerStatus">{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.0.0&quot;},&quot;message&quot;:&quot;Katalon Automation Hub is up and running&quot;,&quot;ready&quot;:true}}</property>
+</record>
+<record>
+  <date>2025-08-08T10:04:28.520912Z</date>
+  <millis>1754647468520</millis>
+  <nanos>912000</nanos>
+  <sequence>91</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>remoteDriverUrl = https://token:eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpZTlDMnN4ZjZ4czczSHJxY0QyejRxcVVzNEFpOWVzNXR5SVVKYmRTYW04In0.eyJleHAiOjE3NTQ4MTA0OTYsImlhdCI6MTc1NDYzNzY5NiwianRpIjoiY2YzMjc4M2ItOTMyYi00ZGFiLThmZGMtNWQxYmY3M2MyZmYwIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5rYXRhbG9uLmNvbS9yZWFsbXMva2F0YWxvbiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI2YjNjYWZhNi1mMzRmLTQ4NjItOTk0ZS00ZGMwZDllODIxY2YiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXRhbG9uLWFkbWluIiwic2lkIjoiMWY2MWUzZjItMWZmYi00NjlkLWI2YWYtMDIyNmZlNjQyNGU4IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL215LmthdGFsb24uY29tIiwiaHR0cHM6Ly9hZG1pbi5rYXRhbG9uLmNvbSJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLWthdGFsb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInVwZGF0ZWRfdGltZXN0YW1wIjoxNzUzODc0MDY3NTk2LCJsYXN0X2xvZ2luIjoxNzU0NjMyODkxNDQ1LCJuYW1lIjoiTGluaCBOZ3V5ZW4iLCJjcmVhdGVkX3RpbWVzdGFtcCI6MTc1Mzg0MzQ5Mjc2NCwicHJlZmVycmVkX3VzZXJuYW1lIjoidG9saW5obmd1eWVuMjYxMEBnbWFpbC5jb20iLCJnaXZlbl9uYW1lIjoiTGluaCIsImZhbWlseV9uYW1lIjoiTmd1eWVuIiwiZW1haWwiOiJ0b2xpbmhuZ3V5ZW4yNjEwQGdtYWlsLmNvbSJ9.jNhAYVPH3ns4MYrKXezjTMLobeRBmwixn2trXSTs_wuliDsZDoHi4oBgxcaagtYm2c0ntCo7oMn_a52nIz3uuMkDRIiDcb1MqlgqTS-3VtAGtHCUU1uiVmLHHltE8iVhmJykQAWN1AiEmqI2vcMtE6RFoYz7l9_3b78qi9T0u3mlZcFlVUB9jOHoCzdTvHTMyX4G-9Ps9Zxlzw9Jl4qk-t8JL5qpJyEITjcjuhoGmbIjU7QDiPjot8HEhm9UlowRHUqpthc4Yx3HIg4Ju8spHBU1VD65iKGHZ2zPaD06n0cZdU3WOnWRg46q42is8YyDWKpFytC_m6wWJrn1Qr1SvQ@testcloud.katalon.com/wd/hub</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remoteDriverUrl">https://token:eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpZTlDMnN4ZjZ4czczSHJxY0QyejRxcVVzNEFpOWVzNXR5SVVKYmRTYW04In0.eyJleHAiOjE3NTQ4MTA0OTYsImlhdCI6MTc1NDYzNzY5NiwianRpIjoiY2YzMjc4M2ItOTMyYi00ZGFiLThmZGMtNWQxYmY3M2MyZmYwIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5rYXRhbG9uLmNvbS9yZWFsbXMva2F0YWxvbiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI2YjNjYWZhNi1mMzRmLTQ4NjItOTk0ZS00ZGMwZDllODIxY2YiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXRhbG9uLWFkbWluIiwic2lkIjoiMWY2MWUzZjItMWZmYi00NjlkLWI2YWYtMDIyNmZlNjQyNGU4IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL215LmthdGFsb24uY29tIiwiaHR0cHM6Ly9hZG1pbi5rYXRhbG9uLmNvbSJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLWthdGFsb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInVwZGF0ZWRfdGltZXN0YW1wIjoxNzUzODc0MDY3NTk2LCJsYXN0X2xvZ2luIjoxNzU0NjMyODkxNDQ1LCJuYW1lIjoiTGluaCBOZ3V5ZW4iLCJjcmVhdGVkX3RpbWVzdGFtcCI6MTc1Mzg0MzQ5Mjc2NCwicHJlZmVycmVkX3VzZXJuYW1lIjoidG9saW5obmd1eWVuMjYxMEBnbWFpbC5jb20iLCJnaXZlbl9uYW1lIjoiTGluaCIsImZhbWlseV9uYW1lIjoiTmd1eWVuIiwiZW1haWwiOiJ0b2xpbmhuZ3V5ZW4yNjEwQGdtYWlsLmNvbSJ9.jNhAYVPH3ns4MYrKXezjTMLobeRBmwixn2trXSTs_wuliDsZDoHi4oBgxcaagtYm2c0ntCo7oMn_a52nIz3uuMkDRIiDcb1MqlgqTS-3VtAGtHCUU1uiVmLHHltE8iVhmJykQAWN1AiEmqI2vcMtE6RFoYz7l9_3b78qi9T0u3mlZcFlVUB9jOHoCzdTvHTMyX4G-9Ps9Zxlzw9Jl4qk-t8JL5qpJyEITjcjuhoGmbIjU7QDiPjot8HEhm9UlowRHUqpthc4Yx3HIg4Ju8spHBU1VD65iKGHZ2zPaD06n0cZdU3WOnWRg46q42is8YyDWKpFytC_m6wWJrn1Qr1SvQ@testcloud.katalon.com/wd/hub</property>
+</record>
+<record>
+  <date>2025-08-08T10:04:28.529626Z</date>
+  <millis>1754647468529</millis>
+  <nanos>626000</nanos>
+  <sequence>93</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>desiredCapabilities = {
+  &amp;quot;app&amp;quot;: &amp;quot;41737d08-66f1-4a17-be67-d35a8c6152af&amp;quot;,
+  &amp;quot;appium:deviceName&amp;quot;: &amp;quot;Samsung Galaxy S24 Ultra&amp;quot;,
+  &amp;quot;platformName&amp;quot;: &amp;quot;ANDROID&amp;quot;,
+  &amp;quot;appium:platformVersion&amp;quot;: &amp;quot;14&amp;quot;,
+  &amp;quot;katalon:options&amp;quot;: {
+    &amp;quot;metadata&amp;quot;: {
+      &amp;quot;organizationId&amp;quot;: &amp;quot;2458420&amp;quot;,
+      &amp;quot;accountId&amp;quot;: &amp;quot;1572382&amp;quot;,
+      &amp;quot;channel&amp;quot;: &amp;quot;kse;v\u003d10.1.1&amp;quot;
+    },
+    &amp;quot;appiumVersion&amp;quot;: &amp;quot;2.11.2&amp;quot;,
+    &amp;quot;executionMode&amp;quot;: &amp;quot;queue&amp;quot;,
+    &amp;quot;usingTunnel&amp;quot;: false
+  }
+}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="desiredCapabilities">{
+  &quot;app&quot;: &quot;41737d08-66f1-4a17-be67-d35a8c6152af&quot;,
+  &quot;appium:deviceName&quot;: &quot;Samsung Galaxy S24 Ultra&quot;,
+  &quot;platformName&quot;: &quot;ANDROID&quot;,
+  &quot;appium:platformVersion&quot;: &quot;14&quot;,
+  &quot;katalon:options&quot;: {
+    &quot;metadata&quot;: {
+      &quot;organizationId&quot;: &quot;2458420&quot;,
+      &quot;accountId&quot;: &quot;1572382&quot;,
+      &quot;channel&quot;: &quot;kse;v\u003d10.1.1&quot;
+    },
+    &quot;appiumVersion&quot;: &quot;2.11.2&quot;,
+    &quot;executionMode&quot;: &quot;queue&quot;,
+    &quot;usingTunnel&quot;: false
+  }
+}</property>
+</record>
+<record>
+  <date>2025-08-08T10:04:28.536652Z</date>
+  <millis>1754647468536</millis>
+  <nanos>652000</nanos>
+  <sequence>95</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalon:caps = {
+  &amp;quot;deviceName&amp;quot;: &amp;quot;Samsung Galaxy S24 Ultra&amp;quot;,
+  &amp;quot;executionId&amp;quot;: &amp;quot;8a9edac6-6ddc-440d-a69a-be964eb6f4a3&amp;quot;,
+  &amp;quot;executionSessionId&amp;quot;: &amp;quot;8e0fba8c-a47b-40ce-b235-77e6033b1ea7&amp;quot;
+}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalon:caps">{
+  &quot;deviceName&quot;: &quot;Samsung Galaxy S24 Ultra&quot;,
+  &quot;executionId&quot;: &quot;8a9edac6-6ddc-440d-a69a-be964eb6f4a3&quot;,
+  &quot;executionSessionId&quot;: &quot;8e0fba8c-a47b-40ce-b235-77e6033b1ea7&quot;
+}</property>
+</record>
+<record>
+  <date>2025-08-08T10:04:28.539418Z</date>
+  <millis>1754647468539</millis>
+  <nanos>418000</nanos>
+  <sequence>97</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = Samsung Galaxy S24 Ultra</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">Samsung Galaxy S24 Ultra</property>
+</record>
+<record>
+  <date>2025-08-08T10:04:29.887529Z</date>
+  <millis>1754647469887</millis>
+  <nanos>529000</nanos>
+  <sequence>98</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started application: &amp;apos;41737d08-66f1-4a17-be67-d35a8c6152af&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-08-08T10:04:29.890312Z</date>
+  <millis>1754647469890</millis>
+  <nanos>312000</nanos>
+  <sequence>99</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(&amp;quot;/Users/linh.nguyen/Documents/Mobile Apps/Android/IT Glossary_1.5_Apkpure.apk&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-08-08T10:04:29.891488Z</date>
+  <millis>1754647469891</millis>
+  <nanos>488000</nanos>
+  <sequence>100</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(&amp;quot;Object Repository/android.widget.ImageView&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-08-08T10:04:29.969975Z</date>
+  <millis>1754647469969</millis>
+  <nanos>975000</nanos>
+  <sequence>105</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-08-08T10:05:06.500022Z</date>
+  <millis>1754647506500</millis>
+  <nanos>22000</nanos>
+  <sequence>110</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object Object Repository/android.widget.ImageView not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/android.widget.ImageView not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1461)
+	at Mobile_Android_NativeApp_TC.run(Mobile_Android_NativeApp_TC:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1754647316973.run(TempTestSuite1754647316973.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="attachment">1754647501424.png</property>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Object Object Repository/android.widget.ImageView not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1461)
+	at Mobile_Android_NativeApp_TC.run(Mobile_Android_NativeApp_TC:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1754647316973.run(TempTestSuite1754647316973.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.testops.TestOpsLogHelper.handleFailedLogEntry(TestOpsLogHelper.java:112)
+com.kms.katalon.core.logging.KeywordLogger.logFailed(KeywordLogger.java:290)
+com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:43)
+com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1461)
+Mobile_Android_NativeApp_TC.run(Mobile_Android_NativeApp_TC:22)
+</property>
+  <property name="failed.exception.message">Object Object Repository/android.widget.ImageView not found</property>
+</record>
+</log>

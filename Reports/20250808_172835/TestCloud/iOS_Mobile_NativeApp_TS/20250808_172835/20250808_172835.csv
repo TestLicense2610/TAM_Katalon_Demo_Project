@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+iOS_Mobile_NativeApp_TS,,,,08-08-2025 17:28:48,08-08-2025 17:31:03,2m - 14.664s,PASSED
+,,,,,,,
+Test Cases/TestCloud/Movile_iOS_NativeApp_TC,,,,08-08-2025 17:28:49,08-08-2025 17:31:03,2m - 14.117s,PASSED
+Start listener action : beforeTestCase,,,,08-08-2025 17:28:49,08-08-2025 17:28:49,0.157s,PASSED
+"startApplication(""/Users/linh.nguyen/Documents/Mobile Apps/iOS/Coffee Timer.app"", true)",,,,08-08-2025 17:28:49,08-08-2025 17:30:41,1m - 51.994s,PASSED
+"tap(findTestObject(""Object Repository/XCUIElementTypeStaticText - Mexican""), 0)",,,,08-08-2025 17:30:41,08-08-2025 17:30:44,2.376s,PASSED
+"tap(findTestObject(""Object Repository/XCUIElementTypeStaticText - Start""), 0)",,,,08-08-2025 17:30:44,08-08-2025 17:30:45,1.121s,PASSED
+"tap(findTestObject(""Object Repository/XCUIElementTypeStaticText - Stop""), 0)",,,,08-08-2025 17:30:45,08-08-2025 17:30:46,1.033s,PASSED
+"tap(findTestObject(""Object Repository/XCUIElementTypeButton - Back""), 0)",,,,08-08-2025 17:30:46,08-08-2025 17:30:47,1.199s,PASSED
+"tap(findTestObject(""Object Repository/XCUIElementTypeStaticText - Oolong""), 0)",,,,08-08-2025 17:30:47,08-08-2025 17:30:48,1.142s,PASSED
+"tap(findTestObject(""Object Repository/XCUIElementTypeButton - Edit""), 0)",,,,08-08-2025 17:30:48,08-08-2025 17:30:49,1.130s,PASSED
+"tap(findTestObject(""Object Repository/XCUIElementTypeButton - Coffee""), 0)",,,,08-08-2025 17:30:49,08-08-2025 17:30:50,0.978s,PASSED
+"tap(findTestObject(""Object Repository/XCUIElementTypeButton - Done""), 0)",,,,08-08-2025 17:30:50,08-08-2025 17:30:52,1.203s,PASSED
+closeApplication(),,,,08-08-2025 17:30:52,08-08-2025 17:31:03,11.345s,PASSED

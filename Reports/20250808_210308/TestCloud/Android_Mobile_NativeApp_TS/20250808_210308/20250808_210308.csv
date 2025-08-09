@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Android_Mobile_NativeApp_TS,,,,08-08-2025 21:03:26,08-08-2025 21:04:12,46.810s,PASSED
+,,,,,,,
+Test Cases/TestCloud/Mobile_Android_NativeApp_TC,,,,08-08-2025 21:03:26,08-08-2025 21:04:12,46.041s,PASSED
+Start listener action : beforeTestCase,,,,08-08-2025 21:03:27,08-08-2025 21:03:27,0.190s,PASSED
+"startApplication(""/Users/linh.nguyen/Documents/Mobile Apps/Android/IT Glossary_1.5_Apkpure.apk"", true)",,,,08-08-2025 21:03:27,08-08-2025 21:03:58,31.135s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - About App""), 0)",,,,08-08-2025 21:03:58,08-08-2025 21:04:06,7.119s,PASSED
+"verifyElementText(findTestObject(""Object Repository/android.widget.TextView - This app contains a wide collection of IT terminology, abbreviations and MCQs, specially designed for students""), ""This app contains a wide collection of IT terminology, abbreviations and MCQ's, specially designed for students."")",,,,08-08-2025 21:04:06,08-08-2025 21:04:09,3.284s,PASSED
+closeApplication(),,,,08-08-2025 21:04:09,08-08-2025 21:04:12,3.633s,PASSED

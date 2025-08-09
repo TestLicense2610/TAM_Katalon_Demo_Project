@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Android_Mobile_NativeApp_TS" time="59.889" tests="1" failures="0" errors="0">
+   <testsuite name="Android_Mobile_NativeApp_TS" tests="1" failures="0" errors="0" time="59.889" skipped="0" timestamp="08-08-2025T21:47:05" hostname="linh.nguyen - localhost" id="Test Suites/TestCloud/Android_Mobile_NativeApp_TS">
+      <properties>
+         <property name="deviceName" value="Samsung Galaxy S24 Ultra"/>
+         <property name="devicePlatform" value="ANDROID"/>
+         <property name="logFolder" value="/Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250808_214629/TestCloud/Android_Mobile_NativeApp_TS/20250808_214633"/>
+         <property name="logFiles" value="/Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250808_214629/TestCloud/Android_Mobile_NativeApp_TS/20250808_214633/execution0.log, /Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250808_214629/TestCloud/Android_Mobile_NativeApp_TS/20250808_214633/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="linh.nguyen - localhost"/>
+         <property name="remoteDriverUrl" value="https://token:eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpZTlDMnN4ZjZ4czczSHJxY0QyejRxcVVzNEFpOWVzNXR5SVVKYmRTYW04In0.eyJleHAiOjE3NTQ4MzcxNzksImlhdCI6MTc1NDY2NDM3OSwianRpIjoiYTVlOWE2ZDctM2NjMC00MDhkLWE0ZmUtOWYzODU3MWM5MTNlIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5rYXRhbG9uLmNvbS9yZWFsbXMva2F0YWxvbiIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI2YjNjYWZhNi1mMzRmLTQ4NjItOTk0ZS00ZGMwZDllODIxY2YiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXRhbG9uLWFkbWluIiwic2lkIjoiNmRlNjVjNzYtZmNjMS00YmUwLWExMTktZDM1YjY3NDFmOGYwIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL215LmthdGFsb24uY29tIiwiaHR0cHM6Ly9hZG1pbi5rYXRhbG9uLmNvbSJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLWthdGFsb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInVwZGF0ZWRfdGltZXN0YW1wIjoxNzUzODc0MDY3NTk2LCJsYXN0X2xvZ2luIjoxNzU0NjYxOTQxMjExLCJuYW1lIjoiTGluaCBOZ3V5ZW4iLCJjcmVhdGVkX3RpbWVzdGFtcCI6MTc1Mzg0MzQ5Mjc2NCwicHJlZmVycmVkX3VzZXJuYW1lIjoidG9saW5obmd1eWVuMjYxMEBnbWFpbC5jb20iLCJnaXZlbl9uYW1lIjoiTGluaCIsImZhbWlseV9uYW1lIjoiTmd1eWVuIiwiZW1haWwiOiJ0b2xpbmhuZ3V5ZW4yNjEwQGdtYWlsLmNvbSJ9.Xp3VOgyGinucUERs7relf2JkWqKMndlcQAqgTCm7iIqsMwpqBwROSWZrhv-VzqmQ6jA8ghdM0WhsY2XdZMbMjqsG8wq_z65edzgAdAoWpYS7ZwGzNn9TuW-y3yHGhMSbukzoHuOuIoBMLHG-_jt558VB4jiaRahex-BO3nNJ9SYMd4-euen-7jmWAPIfiGhO7BpdJNf_exGbkHQzwAw1byW8cA9STE9b-XbgVPoSGGvdQBCYtwFcw--Vd74WwpY1qyi1xEFst7PLLwgkQCwSR6xAOSe10pDQOhaqhsY9w21NtnTf7LGl_UErGMhxh7MjXvzoD358l-GPSLYhL0QBJg@testcloud.katalon.com/wd/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;app&quot;: &quot;41737d08-66f1-4a17-be67-d35a8c6152af&quot;,&#xa;  &quot;appium:deviceName&quot;: &quot;Samsung Galaxy S24 Ultra&quot;,&#xa;  &quot;platformName&quot;: &quot;ANDROID&quot;,&#xa;  &quot;appium:platformVersion&quot;: &quot;14&quot;,&#xa;  &quot;katalon:options&quot;: {&#xa;    &quot;metadata&quot;: {&#xa;      &quot;organizationId&quot;: &quot;2458420&quot;,&#xa;      &quot;accountId&quot;: &quot;1572382&quot;,&#xa;      &quot;channel&quot;: &quot;kre;v\u003d10.2.1&quot;,&#xa;      &quot;projectId&quot;: &quot;2420294&quot;&#xa;    },&#xa;    &quot;appiumVersion&quot;: &quot;2.11.2&quot;,&#xa;    &quot;executionMode&quot;: &quot;queue&quot;,&#xa;    &quot;usingTunnel&quot;: false&#xa;  }&#xa;}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.0.0&quot;},&quot;message&quot;:&quot;Katalon Automation Hub is up and running&quot;,&quot;ready&quot;:true}}"/>
+         <property name="katalonVersion" value="10.2.1.0"/>
+         <property name="appiumVersion" value="1.0.0"/>
+         <property name="katalon:caps" value="{&#xa;  &quot;deviceName&quot;: &quot;Samsung Galaxy S24 Ultra&quot;,&#xa;  &quot;executionId&quot;: &quot;53c36ce6-0bcb-4ef5-9fd1-4c13189e3407&quot;,&#xa;  &quot;executionSessionId&quot;: &quot;c70b4931-fb7a-4cba-ae74-12187f5661d4&quot;&#xa;}"/>
+         <property name="userFullName" value="Linh Nguyen"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="projectName" value="TAM_Katalon_Demo_Project"/>
+         <property name="deviceName" value="Samsung Galaxy S24 Ultra"/>
+      </properties>
+      <testcase name="Test Cases/TestCloud/Mobile_Android_NativeApp_TC" time="57.192" classname="Test Cases/TestCloud/Mobile_Android_NativeApp_TC" status="PASSED">
+         <system-out><![CDATA[08-08-2025T21:47:08 - [TEST_CASE][PASSED] - Test Cases/TestCloud/Mobile_Android_NativeApp_TC: Test Cases/TestCloud/Mobile_Android_NativeApp_TC
+
+08-08-2025T21:47:09 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+08-08-2025T21:47:09 - [TEST_STEP][PASSED] - GLUE = ["bddProject_StepDefinition"]: null
+
+08-08-2025T21:47:09 - [TEST_STEP][PASSED] - startApplication("/Users/linh.nguyen/Documents/Mobile Apps/Android/IT Glossary_1.5_Apkpure.apk", true): Started application: '41737d08-66f1-4a17-be67-d35a8c6152af'
+
+08-08-2025T21:47:11 - [MESSAGE][INFO] - Overriding application: '/Users/linh.nguyen/Documents/Mobile Apps/Android/IT Glossary_1.5_Apkpure.apk' by '41737d08-66f1-4a17-be67-d35a8c6152af'
+
+08-08-2025T21:47:11 - [MESSAGE][INFO] - Override application info: '{"id":"41737d08-66f1-4a17-be67-d35a8c6152af","organizationId":"2458420","name":"IT Glossary","platform":"ANDROID","status":"READY","size":3010500,"storagePath":"bcde7735-a65b-47a5-a7c2-5694680cb085","uploadedDate":"2025-08-08T09:57:17.517612","createdDate":"2025-08-08T09:57:17.517612","updatedDate":"2025-08-08T09:57:24.032837","fileName":"IT Glossary_1.5_Apkpure.apk","metadata":{"identifier":"com.saiftech.papoo.itglossary","name":"IT Glossary","version":"1.5"}}'
+
+08-08-2025T21:47:11 - [MESSAGE][INFO] - Starting application: '41737d08-66f1-4a17-be67-d35a8c6152af'
+
+08-08-2025T21:47:51 - [MESSAGE][PASSED] - Started application: '41737d08-66f1-4a17-be67-d35a8c6152af'
+
+08-08-2025T21:47:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView - About App"), 0): Tapped on element 'Object Repository/android.widget.TextView - About App'
+
+08-08-2025T21:47:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-08-2025T21:47:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - About App'
+
+08-08-2025T21:47:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/android.widget.TextView - This app contains a wide collection of IT terminology, abbreviations and MCQs, specially designed for students"), "This app contains a wide collection of IT terminology, abbreviations and MCQ's, specially designed for students."): Actual text and expected text of test object 'Object Repository/android.widget.TextView - This app contains a wide collection of IT terminology, abbreviations and MCQs, specially designed for students' are matched.
+
+08-08-2025T21:48:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/android.widget.TextView - This app contains a wide collection of IT terminology, abbreviations and MCQs, specially designed for students' are matched.
+
+08-08-2025T21:48:01 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+08-08-2025T21:48:05 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-08-2025T21:47:05 - [TEST_SUITE][PASSED] - Android_Mobile_NativeApp_TS: Test Cases/TestCloud/Mobile_Android_NativeApp_TC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

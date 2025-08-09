@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+01_Visual_Testing_TS,,,,30-05-2025 18:42:36,30-05-2025 18:45:43,3m - 7.289s,FAILED
+,,,,,,,
+Test Cases/Visual Testing/01_Vistual_Testing_Mobile_Web_App_TC,,,,30-05-2025 18:42:36,30-05-2025 18:45:43,3m - 7.084s,FAILED
+Start listener action : beforeTestCase,,,,30-05-2025 18:42:36,30-05-2025 18:42:36,0.017s,PASSED
+"openBrowser("""")",,,,30-05-2025 18:42:36,30-05-2025 18:45:43,3m - 6.978s,FAILED

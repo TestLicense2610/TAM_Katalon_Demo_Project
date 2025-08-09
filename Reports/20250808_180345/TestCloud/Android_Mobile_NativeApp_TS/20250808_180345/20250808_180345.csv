@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Android_Mobile_NativeApp_TS,,,,08-08-2025 18:04:10,08-08-2025 18:05:14,1m - 4.349s,PASSED
+,,,,,,,
+Test Cases/TestCloud/TestCloud_Record_AndroidApp,,,,08-08-2025 18:04:11,08-08-2025 18:05:14,1m - 3.113s,PASSED
+Start listener action : beforeTestCase,,,,08-08-2025 18:04:12,08-08-2025 18:04:13,0.563s,PASSED
+"startApplication(""41737d08-66f1-4a17-be67-d35a8c6152af"", true)",,,,08-08-2025 18:04:13,08-08-2025 18:04:57,43.940s,PASSED
+"tap(findTestObject(""Object Repository/TestCloud_Record/android.widget.ImageView""), 0)",,,,08-08-2025 18:04:57,08-08-2025 18:05:03,5.745s,PASSED
+"tap(findTestObject(""Object Repository/TestCloud_Record/android.widget.TextView - About App""), 0)",,,,08-08-2025 18:05:03,08-08-2025 18:05:06,3.309s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TestCloud_Record/android.widget.TextView - This app contains a wide collection of IT terminology, abbreviations and MCQs, specially designed for students""), ""This app contains a wide collection of IT terminology, abbreviations and MCQ's, specially designed for students."")",,,,08-08-2025 18:05:06,08-08-2025 18:05:10,3.909s,PASSED
+closeApplication(),,,,08-08-2025 18:05:10,08-08-2025 18:05:14,4.425s,PASSED

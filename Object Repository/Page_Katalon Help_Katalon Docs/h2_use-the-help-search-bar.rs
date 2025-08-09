@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_use-the-help-search-bar</name>
+   <tag></tag>
+   <elementGuidId>e477b507-c735-4202-9d79-2e5369713d39</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'use-the-help-search-bar']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#use-the-help-search-bar</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Use the Help search barDirect link to Use the Help search bar&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>d8e36a72-b56a-4fa9-9d80-1adc7b8f6f7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>anchor anchorWithStickyNavbar_LWe7</value>
+      <webElementGuid>3ba38979-ad34-4ecd-89d1-79542a220b50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>use-the-help-search-bar</value>
+      <webElementGuid>c50579ea-fc9e-4ecd-b0e7-d885df12fc0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Use the Help search bar​</value>
+      <webElementGuid>562f5f88-52da-48de-8f7b-b9ac5dd75ef4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-419ad7a05c5e6c0ed34a053c5a11fa6b</value>
+      <webElementGuid>79e4e23d-b554-4c46-ae1d-a6ef44aa8f8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'use-the-help-search-bar']</value>
+      <webElementGuid>a65d179a-9b82-4f1d-a120-c1fd7d400f3c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'use-the-help-search-bar']</value>
+      <webElementGuid>ac8758ec-f12b-43ef-b21b-22dbabed8610</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[@id = 'use-the-help-search-bar' and (text() = 'Use the Help search bar​' or . = 'Use the Help search bar​')]</value>
+      <webElementGuid>dcd132ef-394f-461d-b897-0dc7a76e04c8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

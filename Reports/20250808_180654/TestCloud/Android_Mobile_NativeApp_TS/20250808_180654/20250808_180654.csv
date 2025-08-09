@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Android_Mobile_NativeApp_TS,,,,08-08-2025 18:07:21,08-08-2025 18:07:43,22.560s,FAILED
+,,,,,,,
+Test Cases/TestCloud/TestCloud_Record_AndroidApp,,,,08-08-2025 18:07:41,08-08-2025 18:07:43,1.703s,FAILED
+Start listener action : beforeTestCase,,,,08-08-2025 18:07:42,08-08-2025 18:07:42,0.010s,PASSED
+"startApplication(""41737d08-66f1-4a17-be67-d35a8c6152af"", true)",,,,08-08-2025 18:07:42,08-08-2025 18:07:43,1.510s,FAILED

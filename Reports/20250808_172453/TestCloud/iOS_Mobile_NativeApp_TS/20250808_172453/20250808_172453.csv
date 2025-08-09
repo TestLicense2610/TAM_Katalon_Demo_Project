@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+iOS_Mobile_NativeApp_TS,,,,08-08-2025 17:25:08,08-08-2025 17:25:11,2.298s,FAILED
+,,,,,,,
+Test Cases/TestCloud/Movile_iOS_NativeApp_TC,,,,08-08-2025 17:25:11,08-08-2025 17:25:11,0.094s,FAILED
+Start listener action : beforeTestCase,,,,08-08-2025 17:25:11,08-08-2025 17:25:11,0.004s,PASSED
+"startApplication(""/Users/linh.nguyen/Documents/Mobile Apps/iOS/Coffee Timer.app"", true)",,,,08-08-2025 17:25:11,08-08-2025 17:25:11,0.024s,FAILED

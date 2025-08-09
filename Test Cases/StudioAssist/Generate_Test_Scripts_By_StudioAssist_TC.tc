@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Generate_Test_Scripts_By_StudioAssist_TC</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3d352ed3-0b4a-4921-8e03-00100ad5dd7f</testCaseGuid>
+</TestCaseEntity>

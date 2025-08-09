@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="iOS_Mobile_NativeApp_TS" time="134.664" tests="1" failures="0" errors="0">
+   <testsuite name="iOS_Mobile_NativeApp_TS" tests="1" failures="0" errors="0" time="134.664" skipped="0" timestamp="08-08-2025T17:28:48" hostname="linh.nguyen - localhost" id="Test Suites/TestCloud/iOS_Mobile_NativeApp_TS">
+      <properties>
+         <property name="deviceName" value="iPhone 16 Pro"/>
+         <property name="devicePlatform" value="iOS"/>
+         <property name="logFolder" value="/Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250808_172835/TestCloud/iOS_Mobile_NativeApp_TS/20250808_172835"/>
+         <property name="logFiles" value="/Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250808_172835/TestCloud/iOS_Mobile_NativeApp_TS/20250808_172835/execution0.log, /Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250808_172835/TestCloud/iOS_Mobile_NativeApp_TS/20250808_172835/appium_error.log, /Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250808_172835/TestCloud/iOS_Mobile_NativeApp_TS/20250808_172835/appium.log, /Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250808_172835/TestCloud/iOS_Mobile_NativeApp_TS/20250808_172835/appium-proxy-server.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="linh.nguyen - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.18.0&quot;,&quot;git-sha&quot;:&quot;a7ea27a9c81660931a9796edc63d8533dfb1da26&quot;,&quot;built&quot;:&quot;2025-08-05 01:03:41 +0000&quot;}}}"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="2.18.0"/>
+         <property name="deviceModel" value="Not available for Simulator"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="null"/>
+         <property name="deviceName" value="iPhone 16 Pro"/>
+         <property name="deviceOSVersion" value="18.4"/>
+      </properties>
+      <testcase name="Test Cases/TestCloud/Movile_iOS_NativeApp_TC" time="134.117" classname="Test Cases/TestCloud/Movile_iOS_NativeApp_TC" status="PASSED">
+         <system-out><![CDATA[08-08-2025T17:28:49 - [TEST_CASE][PASSED] - Test Cases/TestCloud/Movile_iOS_NativeApp_TC: Test Cases/TestCloud/Movile_iOS_NativeApp_TC
+
+08-08-2025T17:28:49 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+08-08-2025T17:28:49 - [TEST_STEP][PASSED] - GLUE = ["bddProject_StepDefinition"]: null
+
+08-08-2025T17:28:49 - [TEST_STEP][PASSED] - startApplication("/Users/linh.nguyen/Documents/Mobile Apps/iOS/Coffee Timer.app", true): Started application: '/Users/linh.nguyen/Documents/Mobile Apps/iOS/Coffee Timer.app'
+
+08-08-2025T17:28:50 - [MESSAGE][INFO] - Starting application: '/Users/linh.nguyen/Documents/Mobile Apps/iOS/Coffee Timer.app'
+
+08-08-2025T17:29:01 - [MESSAGE][WARNING] - Failed to start ios_webkit_debug_proxy on default port 27753
+
+08-08-2025T17:29:01 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/23.11.0/bin/node"
+
+08-08-2025T17:29:01 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/23.11.0/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+08-08-2025T17:29:01 - [MESSAGE][INFO] - APPIUM_HOME: /Users/linh.nguyen/.appium
+
+08-08-2025T17:29:01 - [MESSAGE][INFO] - appium outlog: /Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250808_172835/TestCloud/iOS_Mobile_NativeApp_TS/20250808_172835/appium.log
+
+08-08-2025T17:29:01 - [MESSAGE][INFO] - appium errlog: /Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250808_172835/TestCloud/iOS_Mobile_NativeApp_TS/20250808_172835/appium_error.log
+
+08-08-2025T17:29:04 - [MESSAGE][INFO] - Appium server started on port 53,978
+
+08-08-2025T17:30:41 - [MESSAGE][PASSED] - Started application: '/Users/linh.nguyen/Documents/Mobile Apps/iOS/Coffee Timer.app'
+
+08-08-2025T17:30:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/XCUIElementTypeStaticText - Mexican"), 0): Tapped on element 'Object Repository/XCUIElementTypeStaticText - Mexican'
+
+08-08-2025T17:30:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-08-2025T17:30:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/XCUIElementTypeStaticText - Mexican'
+
+08-08-2025T17:30:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/XCUIElementTypeStaticText - Start"), 0): Tapped on element 'Object Repository/XCUIElementTypeStaticText - Start'
+
+08-08-2025T17:30:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-08-2025T17:30:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/XCUIElementTypeStaticText - Start'
+
+08-08-2025T17:30:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/XCUIElementTypeStaticText - Stop"), 0): Tapped on element 'Object Repository/XCUIElementTypeStaticText - Stop'
+
+08-08-2025T17:30:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-08-2025T17:30:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/XCUIElementTypeStaticText - Stop'
+
+08-08-2025T17:30:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/XCUIElementTypeButton - Back"), 0): Tapped on element 'Object Repository/XCUIElementTypeButton - Back'
+
+08-08-2025T17:30:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-08-2025T17:30:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/XCUIElementTypeButton - Back'
+
+08-08-2025T17:30:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/XCUIElementTypeStaticText - Oolong"), 0): Tapped on element 'Object Repository/XCUIElementTypeStaticText - Oolong'
+
+08-08-2025T17:30:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-08-2025T17:30:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/XCUIElementTypeStaticText - Oolong'
+
+08-08-2025T17:30:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/XCUIElementTypeButton - Edit"), 0): Tapped on element 'Object Repository/XCUIElementTypeButton - Edit'
+
+08-08-2025T17:30:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-08-2025T17:30:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/XCUIElementTypeButton - Edit'
+
+08-08-2025T17:30:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/XCUIElementTypeButton - Coffee"), 0): Tapped on element 'Object Repository/XCUIElementTypeButton - Coffee'
+
+08-08-2025T17:30:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-08-2025T17:30:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/XCUIElementTypeButton - Coffee'
+
+08-08-2025T17:30:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/XCUIElementTypeButton - Done"), 0): Tapped on element 'Object Repository/XCUIElementTypeButton - Done'
+
+08-08-2025T17:30:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-08-2025T17:30:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/XCUIElementTypeButton - Done'
+
+08-08-2025T17:30:52 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+08-08-2025T17:31:03 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-08-2025T17:28:48 - [TEST_SUITE][PASSED] - iOS_Mobile_NativeApp_TS: Test Cases/TestCloud/Movile_iOS_NativeApp_TC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

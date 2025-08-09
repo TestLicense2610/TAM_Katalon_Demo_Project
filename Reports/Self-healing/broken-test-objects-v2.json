@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TI/Page_Analog  Embedded processing  Semicondu_0c2cac/input_text-neutral-dark placeholder-neutral_748494",
+      "brokenLocator": "div.flex.bg-background.w-full.border.border-neutral.rounded-md.focus-within:ring.focus-within:border-disabled.focus-within:ring-neutral.relative.h-full \u003e div.flex.grow.items-center \u003e input.text-neutral-dark.placeholder-neutral-dark.h-full.w-0.grow.bg-transparent.px-4.py-3.5.text-lg.outline-none",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "internal:label\u003d\"Enter a query with minimum of 2 character(s) to enable search.\"i",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TI/Page_Analog  Embedded processing  Semicondu_0c2cac/input_text-neutral-dark placeholder-neutral_748494_SMART_LOCATOR.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TI/Page_Analog  Embedded processing  Semicondu_0c2cac/button_12-com-05f-c1d",
+      "brokenLocator": "div.flex.bg-background.w-full.border.border-neutral.rounded-md.focus-within:ring.relative.h-full.focus-within:border-primary.focus-within:ring-ring-primary \u003e #atomic-search-box-q2rdy-popup \u003e div.flex.flex-grow.basis-1/2.flex-col \u003e #atomic-search-box-q2rdy-left-suggestion-qs-12",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "internal:label\u003d\"“12”, suggested query. Button. 1 of 5.\"i",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TI/Page_Analog  Embedded processing  Semicondu_0c2cac/button_12-com-05f-c1d_SMART_LOCATOR.png"
+    }
+  ]
+}

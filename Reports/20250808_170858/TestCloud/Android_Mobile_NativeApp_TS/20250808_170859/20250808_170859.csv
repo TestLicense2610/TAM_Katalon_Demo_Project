@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Android_Mobile_NativeApp_TS,,,,08-08-2025 17:09:13,08-08-2025 17:13:55,4m - 42.253s,FAILED
+,,,,,,,
+Test Cases/TestCloud/Mobile_Android_NativeApp_TC,,,,08-08-2025 17:12:47,08-08-2025 17:13:55,1m - 7.964s,FAILED
+Start listener action : beforeTestCase,,,,08-08-2025 17:12:47,08-08-2025 17:12:47,0.006s,PASSED
+"startApplication(""/Users/linh.nguyen/Documents/Mobile Apps/Android/IT Glossary_1.5_Apkpure.apk"", true)",,,,08-08-2025 17:12:47,08-08-2025 17:13:15,27.918s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView""), 0)",,,,08-08-2025 17:13:15,08-08-2025 17:13:55,39.940s,FAILED

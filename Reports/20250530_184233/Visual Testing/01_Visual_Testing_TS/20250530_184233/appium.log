@@ -1,0 +1,297 @@
+[38;5;112m[Appium][0m Welcome to Appium v2.18.0 (REV dc0f9d50fd170492a33fd7234d06de1b94df363c)
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m62650[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Attempting to load driver xcuitest...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:62650/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://127.0.0.1:62650/wd/hub (only accessible from the same host)
+	http://192.168.1.3:62650/wd/hub
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@4.2.3 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m   - xcuitest@9.2.4 (automationName 'XCUITest')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 5 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:browserName":"Safari","appium:deviceName":"iPhone 16 Pro","appium:newCommandTimeout":1800,"appium:platformVersion":"18.4","appium:wdaLocalPort":62607,"platformName":"IOS"}]},"desiredCapabilities":{"appium:automationName":"XCUITest","appium:browserName":"Safari","appium:deviceName":"iPhone 16 Pro","appium:newCommandTimeout":1800,"appium:platformVersion":"18.4","appium:wdaLocalPort":62607,"platformName":"IOS"}}
+[38;5;123m[BaseDriver][0m The capabilities ["browserName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'XCUITest' and platformName 'IOS'
+[38;5;112m[Appium][0m The 'xcuitest' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/linh.nguyen/.appium/node_modules/appium-xcuitest-driver
+[38;5;145m[AppiumDriver@d83f][0m Appium v2.18.0 creating new XCUITestDriver (v9.2.4) session
+[38;5;145m[AppiumDriver@d83f][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;145m[AppiumDriver@d83f][0m Appium's BaseDriver version is 9.17.0
+[38;5;145m[AppiumDriver@d83f][0m XCUITestDriver's BaseDriver version is 9.17.0
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Session created with session id: 5a16d777-ee52-4dfa-b0b4-2322894f22c4
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m No real device udid has been provided in capabilities. Will select a matching simulator to run the test.
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m iOS SDK Version set to '18.5'
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Constructing iOS simulator for Xcode version 16.4 with udid 'C654008E-DBDC-475A-9573-40B1D2622922'
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Determining device to run tests on: udid: 'C654008E-DBDC-475A-9573-40B1D2622922', real device: false
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Safari test requested
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Reset: failed to terminate Simulator application with id "com.apple.mobilesafari"
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Error running 'get_app_container': An error was encountered processing the command (domain=com.apple.CoreSimulator.SimError, code=405):
+Unable to lookup in current state: Shutdown
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Reset: could not scrub Safari browser. Leaving as is.
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Using WDA path: '/Users/linh.nguyen/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Using WDA agent: '/Users/linh.nguyen/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Continuing without capturing device logs: iOS Simulator with udid 'C654008E-DBDC-475A-9573-40B1D2622922' is not running
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Setting up simulator
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Simulator with UDID C654008E-DBDC-475A-9573-40B1D2622922 booted in 57.884s
+[38;5;178m[5a16d777][0m[38;5;23m[DevCon Factory][0m Requesting connection for device C654008E-DBDC-475A-9573-40B1D2622922 on local port 62607
+[38;5;178m[5a16d777][0m[38;5;23m[DevCon Factory][0m Successfully requested the connection for C654008E-DBDC-475A-9573-40B1D2622922:62607
+[38;5;178m[5a16d777][0m[38;5;151m[WD Proxy][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Launching WebDriverAgent on the device
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m There is no need to perform the project cleanup. A fresh install has been detected
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Quitting and uninstalling WebDriverAgent
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Shutting down sub-processes
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Retrying WDA startup (2 of 2)
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Launching WebDriverAgent on the device
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m There is no need to perform the project cleanup. A fresh install has been detected
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Quitting and uninstalling WebDriverAgent
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m Shutting down sub-processes
+[38;5;178m[5a16d777][0m[38;5;23m[DevCon Factory][0m Releasing connections for C654008E-DBDC-475A-9573-40B1D2622922 device on any port number
+[38;5;178m[5a16d777][0m[38;5;23m[DevCon Factory][0m Found cached connections to release: ["C654008E-DBDC-475A-9573-40B1D2622922:62607"]
+[38;5;178m[5a16d777][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 172793 ms - 1202 
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;178m[5a16d777][0m[38;5;64m[XCUITestDriver@1cf5][0m connect ECONNREFUSED 127.0.0.1:62607
+[38;5;112m[Appium][0m Received SIGTERM - shutting down
+[38;5;86m[HTTP][0m Closing Appium HTTP server
+[38;5;86m[HTTP][0m Appium HTTP server has been succesfully closed after 8ms
