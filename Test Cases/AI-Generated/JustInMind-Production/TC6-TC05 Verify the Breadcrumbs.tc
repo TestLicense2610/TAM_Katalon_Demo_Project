@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>3c6ea32a-309b-4ca0-a465-225b94778a5f</id>
+        </flow>
+    </customField>
+    <description>1. Naviagte to the "https://www.justinmind.com/"
+    2. Hover on the Products 
+    3. Select "UI Design"</description>
+    <name>TC6-TC05 Verify the Breadcrumbs</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>bc6b3a89-463d-4cb7-abdf-fd7ca2e8dd7b</testCaseGuid>
+</TestCaseEntity>
