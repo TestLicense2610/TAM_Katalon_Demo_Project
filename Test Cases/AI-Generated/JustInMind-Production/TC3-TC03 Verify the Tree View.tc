@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>52d9b710-0d55-4e8d-a849-db5f17faac13</id>
@@ -10,7 +9,7 @@
     2.  Click on each subset of the Data List</description>
     <name>TC3-TC03 Verify the Tree View</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>HelpCenter</tag>
     <testCaseGuid>fda12a51-d609-41f5-8b19-e080f50425ed</testCaseGuid>
     <variable>
         <defaultValue>'8'</defaultValue>

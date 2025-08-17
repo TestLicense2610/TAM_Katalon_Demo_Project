@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>4a21981e-3809-410a-826e-aebc6a5cf504</id>
@@ -13,7 +12,7 @@
     5. Click on "All Topics" / "Problems" / "Questions" / "Ideas"</description>
     <name>TC5-TC04 Verify QnA Categories</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>HelpCenter</tag>
     <testCaseGuid>ae64a20b-e1aa-4a12-b748-aeae25a88d9c</testCaseGuid>
     <variable>
         <defaultValue>'topic-7835'</defaultValue>

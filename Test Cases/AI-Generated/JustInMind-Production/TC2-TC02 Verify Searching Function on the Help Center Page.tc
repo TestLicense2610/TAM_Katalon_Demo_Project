@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>3a8fc285-8600-428a-9a5c-13ea70208224</id>
@@ -13,7 +12,7 @@
     5. Click on the "magnifying glass" icon</description>
     <name>TC2-TC02 Verify Searching Function on the Help Center Page</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>HelpCenter</tag>
     <testCaseGuid>469577c5-7427-424f-aa22-ecd9b5399b93</testCaseGuid>
     <variable>
         <defaultValue>'dropdown list'</defaultValue>
