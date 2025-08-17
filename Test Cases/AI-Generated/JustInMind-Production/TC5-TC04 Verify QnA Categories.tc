@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>4a21981e-3809-410a-826e-aebc6a5cf504</id>
+        </flow>
+    </customField>
+    <description>1. Navigate to https://www.justinmind.com/support/exercises-data 
+    2. Type "Searchbox" into the "What are you looking for?" searchbox
+    3. Click on "Q&amp;A Forums For Free Evaluations Users"
+    4. Click on "UI Libraries &amp; Widget" category
+    5. Click on "All Topics" / "Problems" / "Questions" / "Ideas"</description>
+    <name>TC5-TC04 Verify QnA Categories</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>ae64a20b-e1aa-4a12-b748-aeae25a88d9c</testCaseGuid>
+    <variable>
+        <defaultValue>'topic-7835'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2b3c086c-f621-4414-95ad-85688d937e5b</id>
+        <masked>false</masked>
+        <name>i_ideaStatus_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'topic-9423'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5a0b4d26-b3fd-4801-afbc-f55a22000d31</id>
+        <masked>false</masked>
+        <name>i_ideaStatus_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'7835'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>1de0e5e6-803c-4fb2-8aba-d9243cb6d0b6</id>
+        <masked>false</masked>
+        <name>i_ideaStatus_topic</name>
+    </variable>
+    <variable>
+        <defaultValue>'9423'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>eb2324e5-e101-486b-b3cb-673045fed25e</id>
+        <masked>false</masked>
+        <name>i_ideaStatus_topic_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'topic-1303'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>36054bec-6770-4934-ae99-631dabdd31d3</id>
+        <masked>false</masked>
+        <name>i_topicStatusIcon_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'topic-9554'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>7dff8fba-3538-4bd2-b16b-c97b625dc4bb</id>
+        <masked>false</masked>
+        <name>i_topicStatusIcon_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'1303'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5bb16722-f287-4a23-bf12-8500e68ded14</id>
+        <masked>false</masked>
+        <name>i_topicStatusIcon_topic</name>
+    </variable>
+    <variable>
+        <defaultValue>'9554'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d828a84a-f1d5-4bb9-8380-89da1c879684</id>
+        <masked>false</masked>
+        <name>i_topicStatusIcon_topic_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'topic-1303'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>249f2547-153a-4631-b2fd-93aef0478261</id>
+        <masked>false</masked>
+        <name>i_topicStatus_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'topic-8431'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ed6007ac-be3d-4492-9804-8ead1e7ebdaa</id>
+        <masked>false</masked>
+        <name>i_topicStatus_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'topic-8431'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e0bcaf50-8044-4885-9448-733c14afb22b</id>
+        <masked>false</masked>
+        <name>i_topicStatus_id_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'topic-9559'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d25a1418-38d5-4bf2-9ebe-9d39425f5c37</id>
+        <masked>false</masked>
+        <name>i_topicStatus_id_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'1303'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>332a1175-c85a-4bfb-bfe8-cb58e2ea68f3</id>
+        <masked>false</masked>
+        <name>i_topicStatus_topic</name>
+    </variable>
+    <variable>
+        <defaultValue>'8431'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9e6a627d-966d-4ef8-a2db-04af2024bc0c</id>
+        <masked>false</masked>
+        <name>i_topicStatus_topic_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'8431'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d14eb205-3f68-413c-9628-c32b158d4cfa</id>
+        <masked>false</masked>
+        <name>i_topicStatus_topic_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'9559'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2aa9b3de-997c-4c74-92be-fc82d5bb19f6</id>
+        <masked>false</masked>
+        <name>i_topicStatus_topic_3</name>
+    </variable>
+</TestCaseEntity>

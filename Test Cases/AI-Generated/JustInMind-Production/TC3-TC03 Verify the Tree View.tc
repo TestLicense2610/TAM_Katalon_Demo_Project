@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>52d9b710-0d55-4e8d-a849-db5f17faac13</id>
+        </flow>
+    </customField>
+    <description>1. Navigate to https://www.justinmind.com/support/exercises-data 
+    2.  Click on each subset of the Data List</description>
+    <name>TC3-TC03 Verify the Tree View</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>fda12a51-d609-41f5-8b19-e080f50425ed</testCaseGuid>
+    <variable>
+        <defaultValue>'8'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>20828191-8989-45bc-ae24-1f6827e70c9f</id>
+        <masked>false</masked>
+        <name>header_tableOptions_h2NthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'11'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d70296c1-b963-4085-ac91-81f053c561eb</id>
+        <masked>false</masked>
+        <name>header_tableOptions_h2NthChild_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'14'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0508b4c4-aef2-4c8b-a38a-4aa0a3e4e553</id>
+        <masked>false</masked>
+        <name>header_tableOptions_h2NthChild_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'20'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0d0f2c02-1ba1-4247-9c21-46aaeeee2621</id>
+        <masked>false</masked>
+        <name>header_tableOptions_h2NthChild_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'32'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>726b4576-0cfb-4e3b-a8e8-af67580ca545</id>
+        <masked>false</masked>
+        <name>header_tableOptions_h2NthChild_4</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>bbbeb0b9-6a7e-4426-b736-b1c28338986a</id>
+        <masked>false</masked>
+        <name>header_tableOptions_h2NthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>710071be-5154-4139-a1c5-7e675286c60a</id>
+        <masked>false</masked>
+        <name>header_tableOptions_h2NthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>8054d2cc-5e04-40bc-b1a6-445d56920715</id>
+        <masked>false</masked>
+        <name>header_tableOptions_h2NthOfType_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>93f70d3f-2fe6-4400-9f91-748a57ce170e</id>
+        <masked>false</masked>
+        <name>header_tableOptions_h2NthOfType_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'6'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4c3a9e15-fc00-4128-9485-06a63438215e</id>
+        <masked>false</masked>
+        <name>header_tableOptions_h2NthOfType_4</name>
+    </variable>
+</TestCaseEntity>

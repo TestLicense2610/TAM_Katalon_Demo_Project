@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over span freeResources",
+        "step 3: Click on div helpCenter -> Navigate to page '/support'",
+        "step 4: Click on input search",
+        "step 5: Enter input value in input search",
+        "step 6: Click on button submit -> Navigate to page '/support/search'",
+        "step 7: Click on span dropdownList -> Navigate to page ''",
+        "step 8: Take full page screenshot as checkpoint"
+    ]
+}
