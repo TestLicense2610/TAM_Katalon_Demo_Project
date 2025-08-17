@@ -1,0 +1,77 @@
+"Flow ID","Name","Description","Test Steps","Flow Priority","Status"
+"4","Remove TC04 Verify QnA Categories","1. Navigate to https://www.justinmind.com/support/exercises-data 
+2. Type ""Searchbox"" into the ""What are you looking for?"" searchbox
+3. Click on ""Q&A Forums For Free Evaluations Users""
+4. Click on ""UI Libraries & Widget"" category
+5. Click on ""All Topics"" / ""Problems"" / ""Questions"" / ""Ideas""","Step 1: Navigate to /support/exercises-data
+Step 2: Click on input search
+Step 3: Enter input value in input search
+Step 4: Click on button submit -> Navigate to page '/support/search'
+Step 5: Click on link qaForums -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+","High","NEW"
+"1","TC01 Verify the warning message when loggin in with invalid credentials","1. Navigate to https://www.justinmind.com/community/login
+2. Enter invalid credentials: linh.nguyen@katalon.com / abc
+3. Click on the ""Login"" button","Step 1: Navigate to /community/login
+Step 2: Login
+Step 3: Click on div loginErrorMessage -> Navigate to page ''
+Step 4: Take full page screenshot as checkpoint
+","High","NEW"
+"6","TC05 Verify the Breadcrumbs","1. Naviagte to the ""https://www.justinmind.com/""
+2. Hover on the Products 
+3. Select ""UI Design""","Step 1: Navigate to /
+Step 2: Hover over span object
+Step 3: Click on link freeUiDesignSoftware -> Navigate to page '/ui-design/software'
+Step 4: Click on span freeUiDesignSoftware -> Navigate to page ''
+Step 5: Take full page screenshot as checkpoint
+","High","NEW"
+"5","TC04 Verify QnA Categories","1. Navigate to https://www.justinmind.com/support/exercises-data 
+2. Type ""Searchbox"" into the ""What are you looking for?"" searchbox
+3. Click on ""Q&A Forums For Free Evaluations Users""
+4. Click on ""UI Libraries & Widget"" category
+5. Click on ""All Topics"" / ""Problems"" / ""Questions"" / ""Ideas""","Step 1: Navigate to /community
+Step 2: Click on link uiLibrariesAndWidgets -> Navigate to page '/community/topics/all/status/all/category/*/sort/updated/page/*'
+Step 3: Click on link allTopics -> Navigate to page '/community/topics/all/status/all/category/all/sort/updated/page/*'
+Step 4: Click on i topicStatus (topicStatus)
+Step 5: Click on i topicStatus (topicStatus2)
+Step 6: Click on link problems -> Navigate to page '/community/topics/problem/status/all/category/all/sort/updated/page/*'
+Step 7: Click on i topicStatus (topicStatus)
+Step 8: Click on i topicStatus (topicStatus2)
+Step 9: Click on link questions -> Navigate to page '/community/topics/question/status/all/category/all/sort/updated/page/*'
+Step 10: Click on i topicStatusIcon (questionStatus)
+Step 11: Click on i topicStatusIcon (topicStatusIcon)
+Step 12: Click on link ideas -> Navigate to page '/community/topics/idea/status/all/category/all/sort/updated/page/*'
+Step 13: Click on i ideaStatus (object)
+Step 14: Click on i ideaStatus (ideaStatus) -> Navigate to page ''
+Step 15: Take full page screenshot as checkpoint
+","High","NEW"
+"2","TC02 Verify Searching Function on the Help Center Page","1. Navigate to https://www.justinmind.com/ 
+2. Hover on Free Resources 
+3. Select the Help Center 
+4. Type ""Dropdown list"" in the ""What are you looking for"" search box 
+5. Click on the ""magnifying glass"" icon","Step 1: Navigate to /
+Step 2: Hover over span freeResources
+Step 3: Click on div helpCenter -> Navigate to page '/support'
+Step 4: Click on input search
+Step 5: Enter input value in input search
+Step 6: Click on button submit -> Navigate to page '/support/search'
+Step 7: Click on span dropdownList -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+","High","NEW"
+"3","TC03 Verify the Tree View","1. Navigate to https://www.justinmind.com/support/exercises-data 
+2.  Click on each subset of the Data List","Step 1: Navigate to /support/exercises-data
+Step 2: Click on link displayingDataMasterRecords
+Step 3: Click on header displayingDataMasterRecords
+Step 4: Click on link properties
+Step 5: Click on header tableOptions (properties)
+Step 6: Click on link customizingDataList
+Step 7: Click on header tableOptions (customizingDataList)
+Step 8: Click on link sortColumns
+Step 9: Click on header tableOptions (sortColumns)
+Step 10: Click on link filterRows
+Step 11: Click on header tableOptions (filterRows)
+Step 12: Click on item selectRows
+Step 13: Click on link selectRows
+Step 14: Click on header tableOptions (selectRows) -> Navigate to page ''
+Step 15: Take full page screenshot as checkpoint
+","High","NEW"
