@@ -1,24 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-    <comment />
-    <customField>
-        <flow>
-            <id>3a8fc285-8600-428a-9a5c-13ea70208224</id>
-        </flow>
-    </customField>
-    <description>1. Navigate to https://www.justinmind.com/ 
+   <description>1. Navigate to https://www.justinmind.com/ 
     2. Hover on Free Resources 
     3. Select the Help Center 
-    4. Type "Dropdown list" in the "What are you looking for" search box 
-    5. Click on the "magnifying glass" icon</description>
-    <name>TC2-TC02 Verify Searching Function on the Help Center Page</name>
-    <origin>TRUETEST</origin>
-    <tag>HelpCenter</tag>
-    <testCaseGuid>469577c5-7427-424f-aa22-ecd9b5399b93</testCaseGuid>
-    <variable>
-        <defaultValue>'dropdown list'</defaultValue>
-        <description>Input data variable</description>
-        <id>a3400019-b634-4c40-b66d-35f21af78251</id>
-        <masked>false</masked>
-        <name>input_search</name>
-    </variable>
+    4. Type &quot;Dropdown list&quot; in the &quot;What are you looking for&quot; search box 
+    5. Click on the &quot;magnifying glass&quot; icon</description>
+   <name>TC2-TC02 Verify Searching Function on the Help Center Page</name>
+   <tag>HelpCenter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>469577c5-7427-424f-aa22-ecd9b5399b93</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3400019-b634-4c40-b66d-35f21af78251</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad3606f8-c8a1-44c1-8592-617961e04d5a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'dropdown list'</defaultValue>
+      <description>Input data variable</description>
+      <id>a3400019-b634-4c40-b66d-35f21af78251</id>
+      <masked>false</masked>
+      <name>input_search</name>
+   </variable>
+   <variable>
+      <defaultValue>'dropdown list (14)'</defaultValue>
+      <description></description>
+      <id>ad3606f8-c8a1-44c1-8592-617961e04d5a</id>
+      <masked>false</masked>
+      <name>expectedText</name>
+   </variable>
 </TestCaseEntity>

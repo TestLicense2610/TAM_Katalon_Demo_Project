@@ -11,7 +11,7 @@ def reportLocation = RunConfiguration.getReportFolder()
 @com.kms.katalon.core.annotation.SetUp
 def setup() {
 	WebUI.openBrowser('')
-	WebUI.setViewPortSize(1920, 1080)	
+	//WebUI.setViewPortSize(1920, 1080)	
 }
 
 "Step 1: Navigate to /"
@@ -50,7 +50,10 @@ WebUI.enhancedClick(findTestObject('AI-Generated/JustInMind-Production/Page_supp
 
 "Step 7: Click on span dropdownList -> Navigate to page ''"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/JustInMind-Production/Page_support_search/span_dropdownList'))
+//WebUI.enhancedClick(findTestObject('AI-Generated/JustInMind-Production/Page_support_search/span_dropdownList'))
+
+def actualText = WebUI.getText(findTestObject('AI-Generated/JustInMind-Production/Page_support_search/span_dropdownList'))
+WebUI.verifyEqual(actualText, expectedText)
 
 // WebUI.takeScreenshot(reportLocation + '/TC2/Step 7-Click on span dropdownList - Navigate to page .png')
 
