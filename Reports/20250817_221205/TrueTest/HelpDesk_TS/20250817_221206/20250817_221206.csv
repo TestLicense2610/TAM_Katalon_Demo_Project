@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HelpDesk_TS,Chrome 139.0.7258.67,,,17-08-2025 22:12:08,17-08-2025 22:12:51,42.761s,PASSED
+,,,,,,,
+Test Cases/AI-Generated/JustInMind-Production/TC2-TC02 Verify Searching Function on the Help Center Page,Chrome 139.0.7258.67,"1. Navigate to https://www.justinmind.com/ 
+    2. Hover on Free Resources 
+    3. Select the Help Center 
+    4. Type ""Dropdown list"" in the ""What are you looking for"" search box 
+    5. Click on the ""magnifying glass"" icon",HelpCenter,17-08-2025 22:12:08,17-08-2025 22:12:51,42.614s,PASSED
+"DATA BINDING - {""(Default) expec..."":""dropdown list (14)"",""(Default) input..."":""dropdown list""}",,,,,,,
+Start listener action : beforeTestCase,Chrome 139.0.7258.67,,,17-08-2025 22:12:08,17-08-2025 22:12:08,0.011s,PASSED
+Start setup action : setup,Chrome 139.0.7258.67,,,17-08-2025 22:12:08,17-08-2025 22:12:11,2.082s,PASSED
+reportLocation = getReportFolder(),Chrome 139.0.7258.67,,,17-08-2025 22:12:11,17-08-2025 22:12:11,0.000s,PASSED
+"""Initialize test session: Open browser and set view port""",Chrome 139.0.7258.67,,,17-08-2025 22:12:11,17-08-2025 22:12:11,0.001s,PASSED
+"TrueTestScripts.navigate(""/"")",Chrome 139.0.7258.67,Step 1: Navigate to /,,17-08-2025 22:12:11,17-08-2025 22:12:16,5.683s,PASSED
+"mouseOver(findTestObject(""AI-Generated/JustInMind-Production/Page_home/span_freeResources""))",Chrome 139.0.7258.67,Step 2: Hover over span freeResources,,17-08-2025 22:12:16,17-08-2025 22:12:17,0.411s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/JustInMind-Production/Page_home/div_helpCenter""))",Chrome 139.0.7258.67,Step 3: Click on div helpCenter -> Navigate to page '/support',,17-08-2025 22:12:17,17-08-2025 22:12:49,32.651s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/JustInMind-Production/Page_support/input_search""))",Chrome 139.0.7258.67,Step 4: Click on input search,,17-08-2025 22:12:49,17-08-2025 22:12:49,0.100s,PASSED
+"setText(findTestObject(""AI-Generated/JustInMind-Production/Page_support/input_search""), input_search)",Chrome 139.0.7258.67,Step 5: Enter input value in input search,,17-08-2025 22:12:49,17-08-2025 22:12:50,0.141s,PASSED
+"enhancedClick(findTestObject(""AI-Generated/JustInMind-Production/Page_support/button_submit""))",Chrome 139.0.7258.67,Step 6: Click on button submit -> Navigate to page '/support/search',,17-08-2025 22:12:50,17-08-2025 22:12:50,0.458s,PASSED
+"actualText = getText(findTestObject(""AI-Generated/JustInMind-Production/Page_support_search/span_dropdownList""))",Chrome 139.0.7258.67,Step 7: Click on span dropdownList -> Navigate to page '',,17-08-2025 22:12:50,17-08-2025 22:12:50,0.016s,PASSED
+"verifyEqual(actualText, expectedText)",Chrome 139.0.7258.67,,,17-08-2025 22:12:50,17-08-2025 22:12:50,0.007s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""TC2-TC02 Verify Searching Function on the Help Center Page_visual_checkpoint"")",Chrome 139.0.7258.67,Step 8: Take full page screenshot as checkpoint,,17-08-2025 22:12:50,17-08-2025 22:12:51,0.912s,PASSED
+Start tear down : teardown,Chrome 139.0.7258.67,,,17-08-2025 22:12:51,17-08-2025 22:12:51,0.113s,PASSED

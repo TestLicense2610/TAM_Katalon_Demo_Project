@@ -6,7 +6,7 @@
     4. Type &quot;Dropdown list&quot; in the &quot;What are you looking for&quot; search box 
     5. Click on the &quot;magnifying glass&quot; icon</description>
    <name>TC2-TC02 Verify Searching Function on the Help Center Page</name>
-   <tag>HelpCenter</tag>
+   <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>469577c5-7427-424f-aa22-ecd9b5399b93</testCaseGuid>

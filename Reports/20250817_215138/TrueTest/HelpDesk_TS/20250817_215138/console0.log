@@ -1,0 +1,35 @@
+2025-08-17 21:51:40.636 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TrueTest/HelpDesk_TS
+2025-08-17 21:51:40.670 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Linh Nguyen
+2025-08-17 21:51:40.671 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TAM_Katalon_Demo_Project
+2025-08-17 21:51:40.671 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = linh.nguyen - localhost
+2025-08-17 21:51:40.671 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-08-17 21:51:40.671 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-08-17 21:51:40.671 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.2.0
+2025-08-17 21:51:40.797 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-17 21:51:40.797 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/JustInMind-Production/TC2-TC02 Verify Searching Function on the Help Center Page
+2025-08-17 21:51:40.818 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_search = dropdown list
+2025-08-17 21:51:40.823 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) expectedText = dropdown list (14)
+2025-08-17 21:51:40.908 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-17 21:51:40.910 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[force-device-scale-factor=1, high-dpi-support=1]']
+2025-08-17 21:51:40.923 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 17, 2025 9:51:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 17, 2025 9:51:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-08-17 21:51:43.324 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2d25df8bdd33a263a019f94fd288e421
+2025-08-17 21:51:43.324 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.67
+2025-08-17 21:51:43.324 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-08-17 21:51:43.325 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-17 21:51:43.327 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-17 21:52:20.145 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/AI-Generated/JustInMind-Production/Page_home/div_helpCenter'. Try using Self-healing.
+2025-08-17 21:52:20.380 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] The current locator of test object 'Object Repository/AI-Generated/JustInMind-Production/Page_home/div_helpCenter' was broken. Propose an alternative one: '//body/header[1]/div[1]/nav[1]/nav[1]/div[1]/ul[1]/li[4]/div[1]/div[1]/ul[1]/div[1]/li[1]/div[2]/div[1]'.
+2025-08-17 21:52:25.982 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-08-17 21:52:26.184 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/JustInMind-Production/TC2-TC02 Verify Searching Function on the Help Center Page
+2025-08-17 21:52:26.184 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2025-08-17 21:52:26.184 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2025-08-17 21:52:26.184 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2025-08-17 21:52:26.184 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2025-08-17 21:52:26.184 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2025-08-17 21:52:26.200 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-08-17 21:52:26.201 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TrueTest/HelpDesk_TS
+2025-08-17 21:52:26.201 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

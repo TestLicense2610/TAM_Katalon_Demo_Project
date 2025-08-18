@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AI-Generated/JustInMind-Production/Page_home/div_helpCenter",
+      "brokenLocator": "#item_68994bb37ff3b \u003e .menuItemContent \u003e .title",
+      "brokenLocatorMethod": "SMART_LOCATOR",
+      "proposedLocator": "//body/header[1]/div[1]/nav[1]/nav[1]/div[1]/ul[1]/li[4]/div[1]/div[1]/ul[1]/div[1]/li[1]/div[2]/div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250817_221205/TrueTest/HelpDesk_TS/20250817_221206/Object Repository/AI-Generated/JustInMind-Production/Page_home/div_helpCenter_XPATH.png"
+    }
+  ]
+}

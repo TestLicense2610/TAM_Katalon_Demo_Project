@@ -1,0 +1,25 @@
+2025-08-18 23:04:13.367 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TrueTest/HelpDesk_TS
+2025-08-18 23:04:13.402 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Linh Nguyen
+2025-08-18 23:04:13.403 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TAM_Katalon_Demo_Project
+2025-08-18 23:04:13.403 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = linh.nguyen - localhost
+2025-08-18 23:04:13.403 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-08-18 23:04:13.403 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-08-18 23:04:13.403 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.2.0
+2025-08-18 23:04:13.525 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-18 23:04:13.525 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/JustInMind-Production/TC2-TC02 Verify Searching Function on the Help Center Page
+2025-08-18 23:04:13.541 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) input_search = dropdown list
+2025-08-18 23:04:13.544 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) expectedText = dropdown list (14)
+2025-08-18 23:04:13.625 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-18 23:04:13.627 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[force-device-scale-factor=1, high-dpi-support=1]']
+2025-08-18 23:04:13.638 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 18, 2025 11:04:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 18, 2025 11:04:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-08-18 23:04:18.699 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 821e78dcf3ef0eeb9e711de48a62848a
+2025-08-18 23:04:18.699 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-18 23:04:18.700 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-08-18 23:04:18.700 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-18 23:04:18.710 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-18 23:04:55.111 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/AI-Generated/JustInMind-Production/Page_home/div_helpCenter'. Try using Self-healing.
+2025-08-18 23:04:55.335 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] The current locator of test object 'Object Repository/AI-Generated/JustInMind-Production/Page_home/div_helpCenter' was broken. Propose an alternative one: '//body/header[1]/div[1]/nav[1]/nav[1]/div[1]/ul[1]/li[4]/div[1]/div[1]/ul[1]/div[1]/li[1]/div[2]/div[1]'.

@@ -1,0 +1,72 @@
+2025-08-18 23:15:27.347 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TrueTest/HelpCenter_DTS
+2025-08-18 23:15:27.509 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Linh Nguyen
+2025-08-18 23:15:27.514 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TAM_Katalon_Demo_Project
+2025-08-18 23:15:27.516 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = linh.nguyen - localhost
+2025-08-18 23:15:27.518 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-08-18 23:15:27.519 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-08-18 23:15:27.524 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.2.0
+2025-08-18 23:15:28.334 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-18 23:15:28.334 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/JustInMind-Production/TC3-TC03 Verify the Tree View
+2025-08-18 23:15:28.444 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthChild = 8
+2025-08-18 23:15:28.467 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthChild_1 = 11
+2025-08-18 23:15:28.490 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthChild_2 = 14
+2025-08-18 23:15:28.507 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthChild_3 = 20
+2025-08-18 23:15:28.532 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthChild_4 = 32
+2025-08-18 23:15:28.559 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthOfType = 2
+2025-08-18 23:15:28.578 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthOfType_1 = 3
+2025-08-18 23:15:28.594 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthOfType_2 = 4
+2025-08-18 23:15:28.611 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthOfType_3 = 5
+2025-08-18 23:15:28.630 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthOfType_4 = 6
+2025-08-18 23:15:29.178 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-18 23:15:29.187 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[force-device-scale-factor=1, high-dpi-support=1]']
+2025-08-18 23:15:29.252 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 18, 2025 11:15:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 18, 2025 11:15:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-08-18 23:15:33.778 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5c73fc043cf55467e74ee4f650dd83bc
+2025-08-18 23:15:33.781 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-18 23:15:33.787 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-08-18 23:15:33.787 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-18 23:15:33.803 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-18 23:15:34.339 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Viewport size mismatch (1,920x805). Trying to set it again.
+2025-08-18 23:15:35.421 WARN  c.k.k.c.w.k.b.SetViewPortSizeKeyword     - Viewport size mismatch (1920x1920).
+2025-08-18 23:15:52.676 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-08-18 23:15:54.429 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/JustInMind-Production/TC3-TC03 Verify the Tree View
+2025-08-18 23:15:54.444 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-18 23:15:54.445 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/JustInMind-Production/TC5-TC04 Verify QnA Categories
+2025-08-18 23:15:54.488 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_ideaStatus_id = topic-7835
+2025-08-18 23:15:54.507 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_ideaStatus_id_1 = topic-9423
+2025-08-18 23:15:54.524 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_ideaStatus_topic = 7835
+2025-08-18 23:15:54.541 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_ideaStatus_topic_1 = 9423
+2025-08-18 23:15:54.559 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatusIcon_id = topic-1303
+2025-08-18 23:15:54.572 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatusIcon_id_1 = topic-9554
+2025-08-18 23:15:54.586 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatusIcon_topic = 1303
+2025-08-18 23:15:54.606 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatusIcon_topic_1 = 9554
+2025-08-18 23:15:54.607 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatus_id = topic-1303
+2025-08-18 23:15:54.623 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatus_id_1 = topic-8431
+2025-08-18 23:15:54.624 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatus_id_2 = topic-8431
+2025-08-18 23:15:54.643 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatus_id_3 = topic-9559
+2025-08-18 23:15:54.644 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatus_topic = 1303
+2025-08-18 23:15:54.664 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatus_topic_1 = 8431
+2025-08-18 23:15:54.666 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatus_topic_2 = 8431
+2025-08-18 23:15:54.686 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatus_topic_3 = 9559
+2025-08-18 23:15:54.926 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-18 23:15:54.927 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[force-device-scale-factor=1, high-dpi-support=1]']
+2025-08-18 23:15:54.930 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 18, 2025 11:15:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 18, 2025 11:15:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-08-18 23:15:56.621 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ccae2d0c07dfdf4cce9e822d093c7849
+2025-08-18 23:15:56.622 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-18 23:15:56.622 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-08-18 23:15:56.623 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-18 23:15:56.624 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-18 23:15:57.068 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Viewport size mismatch (1,920x805). Trying to set it again.
+2025-08-18 23:15:58.111 WARN  c.k.k.c.w.k.b.SetViewPortSizeKeyword     - Viewport size mismatch (1920x1920).
+2025-08-18 23:16:11.803 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-08-18 23:16:12.116 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/JustInMind-Production/TC5-TC04 Verify QnA Categories
+2025-08-18 23:16:12.168 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-08-18 23:16:12.169 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TrueTest/HelpCenter_DTS
+2025-08-18 23:16:12.169 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

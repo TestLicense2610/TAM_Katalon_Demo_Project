@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HelpDesk_TS" time="42.74" tests="1" failures="0" errors="0">
+   <testsuite name="HelpDesk_TS" tests="1" failures="0" errors="0" time="42.74" skipped="0" timestamp="17-08-2025T22:12:08" hostname="linh.nguyen - localhost" id="Test Suites/TrueTest/HelpDesk_TS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250817_221205/TrueTest/HelpDesk_TS/20250817_221206"/>
+         <property name="logFiles" value="/Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250817_221205/TrueTest/HelpDesk_TS/20250817_221206/execution0.log, /Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250817_221205/TrueTest/HelpDesk_TS/20250817_221206/console0.log"/>
+         <property name="attachments" value="keyes/keyes-TC2-TC02 Verify Searching Function on the Help Center Page_visual_checkpoint.png"/>
+         <property name="hostName" value="linh.nguyen - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.2.2.0"/>
+         <property name="browser" value="Chrome 139.0.7258.67"/>
+         <property name="userFullName" value="Linh Nguyen"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="29ea5d7512735fe33fe3fd9a029ca6b7"/>
+         <property name="projectName" value="TAM_Katalon_Demo_Project"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/AI-Generated/JustInMind-Production/TC2-TC02 Verify Searching Function on the Help Center Page" time="42.614" classname="Test Cases/AI-Generated/JustInMind-Production/TC2-TC02 Verify Searching Function on the Help Center Page" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) expec...":"dropdown list (14)","(Default) input...":"dropdown list"}]]></property>
+         </properties>
+         <system-out><![CDATA[17-08-2025T22:12:08 - [TEST_CASE][PASSED] - Test Cases/AI-Generated/JustInMind-Production/TC2-TC02 Verify Searching Function on the Help Center Page: Test Cases/AI-Generated/JustInMind-Production/TC2-TC02 Verify Searching Function on the Help Center Page
+
+17-08-2025T22:12:08 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+17-08-2025T22:12:08 - [TEST_STEP][PASSED] - GLUE = ["bddProject_StepDefinition"]: null
+
+17-08-2025T22:12:08 - [TEST_STEP][PASSED] - Start setup action : setup: Method 'setup' complete successfully
+
+17-08-2025T22:12:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-08-2025T22:12:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-08-2025T22:12:09 - [MESSAGE][INFO] - User set preference: ['args', '[force-device-scale-factor=1, high-dpi-support=1]']
+
+17-08-2025T22:12:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-08-2025T22:12:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-08-2025T22:12:11 - [MESSAGE][PASSED] - Method 'setup' complete successfully
+
+17-08-2025T22:12:11 - [TEST_STEP][PASSED] - reportLocation = getReportFolder(): null
+
+17-08-2025T22:12:11 - [TEST_STEP][PASSED] - "Initialize test session: Open browser and set view port": null
+
+17-08-2025T22:12:11 - [TEST_STEP][PASSED] - TrueTestScripts.navigate("/"): Delayed 3 second(s)
+
+17-08-2025T22:12:13 - [MESSAGE][PASSED] - Navigate to 'https://www.justinmind.com/' successfully
+
+17-08-2025T22:12:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-08-2025T22:12:16 - [TEST_STEP][PASSED] - mouseOver(findTestObject("AI-Generated/JustInMind-Production/Page_home/span_freeResources")): Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_home/span_freeResources' is hovered
+
+17-08-2025T22:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_home/span_freeResources' is hovered
+
+17-08-2025T22:12:17 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Page_home/div_helpCenter")): Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_home/div_helpCenter' is clicked on
+
+17-08-2025T22:12:48 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AI-Generated/JustInMind-Production/Page_home/div_helpCenter'. Try using Self-healing.
+
+17-08-2025T22:12:48 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/AI-Generated/JustInMind-Production/Page_home/div_helpCenter' was broken. Propose an alternative one: '//body/header[1]/div[1]/nav[1]/nav[1]/div[1]/ul[1]/li[4]/div[1]/div[1]/ul[1]/div[1]/li[1]/div[2]/div[1]'.
+
+17-08-2025T22:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_home/div_helpCenter' is clicked on
+
+17-08-2025T22:12:49 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Page_support/input_search")): Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support/input_search' is clicked on
+
+17-08-2025T22:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support/input_search' is clicked on
+
+17-08-2025T22:12:49 - [TEST_STEP][PASSED] - setText(findTestObject("AI-Generated/JustInMind-Production/Page_support/input_search"), input_search): Text 'dropdown list' is set on object 'Object Repository/AI-Generated/JustInMind-Production/Page_support/input_search'
+
+17-08-2025T22:12:50 - [MESSAGE][PASSED] - Text 'dropdown list' is set on object 'Object Repository/AI-Generated/JustInMind-Production/Page_support/input_search'
+
+17-08-2025T22:12:50 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Page_support/button_submit")): Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support/button_submit' is clicked on
+
+17-08-2025T22:12:50 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support/button_submit' is clicked on
+
+17-08-2025T22:12:50 - [TEST_STEP][PASSED] - actualText = getText(findTestObject("AI-Generated/JustInMind-Production/Page_support_search/span_dropdownList")): Text of object 'Object Repository/AI-Generated/JustInMind-Production/Page_support_search/span_dropdownList' is: 'dropdown list (14)'
+
+17-08-2025T22:12:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/AI-Generated/JustInMind-Production/Page_support_search/span_dropdownList' is: 'dropdown list (14)'
+
+17-08-2025T22:12:50 - [TEST_STEP][PASSED] - verifyEqual(actualText, expectedText): Actual object 'dropdown list (14)' and expected object 'dropdown list (14)' are equal
+
+17-08-2025T22:12:50 - [MESSAGE][PASSED] - Actual object 'dropdown list (14)' and expected object 'dropdown list (14)' are equal
+
+17-08-2025T22:12:50 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("TC2-TC02 Verify Searching Function on the Help Center Page_visual_checkpoint"): Taking screenshot successfully
+
+17-08-2025T22:12:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-08-2025T22:12:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-TC2-TC02 Verify Searching Function on the Help Center Page_visual_checkpoint.png]]
+
+17-08-2025T22:12:51 - [TEST_STEP][PASSED] - Start tear down : teardown: Method 'teardown' complete successfully
+
+17-08-2025T22:12:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-08-2025T22:12:51 - [MESSAGE][PASSED] - Browser is closed
+
+17-08-2025T22:12:51 - [MESSAGE][PASSED] - Method 'teardown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-08-2025T22:12:08 - [TEST_SUITE][PASSED] - HelpDesk_TS: Test Cases/AI-Generated/JustInMind-Production/TC2-TC02 Verify Searching Function on the Help Center Page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
