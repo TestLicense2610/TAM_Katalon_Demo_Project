@@ -5,10 +5,29 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
+   <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>1ec36783-f012-45fc-acca-bd63a9869137</testSuiteGuid>
+   <testCaseLink>
+      <guid>60d104c1-ac79-4f11-880e-fd3b58e7a5fe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/JustInMind-Production/TC2-TC02 Verify Searching Function on the Help Center Page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a3400019-b634-4c40-b66d-35f21af78251</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ad3606f8-c8a1-44c1-8592-617961e04d5a</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
