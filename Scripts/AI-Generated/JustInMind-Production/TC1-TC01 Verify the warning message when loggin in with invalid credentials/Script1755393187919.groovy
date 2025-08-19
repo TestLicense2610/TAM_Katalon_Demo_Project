@@ -20,11 +20,20 @@ TrueTestScripts.navigate("/community/login")
 
 "Step 2: Login into Application"
 
-TrueTestScripts.login()
+//TrueTestScripts.login()
+WebUI.setText(findTestObject('Object Repository/Page_Login - Justinmind QA Help Desk/input_Email'), 'linh.nguyen@katalon.com')
+
+WebUI.click(findTestObject('Object Repository/Page_Login - Justinmind QA Help Desk/input_Password'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login - Justinmind QA Help Desk/input_Password'), 'uZy0U1VXwr434ZbiYe7pwg==')
+
+WebUI.enhancedClick(findTestObject('Object Repository/Page_Login - Justinmind QA Help Desk/input_login-submit'))
 
 "Step 3: Click on div loginErrorMessage -> Navigate to page ''"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/JustInMind-Production/Page_community_login/div_loginErrorMessage'))
+//WebUI.enhancedClick(findTestObject('AI-Generated/JustInMind-Production/Page_community_login/div_loginErrorMessage'))
+def actualText = WebUI.getText(findTestObject('AI-Generated/JustInMind-Production/Page_community_login/div_loginErrorMessage'))
+WebUI.verifyEqual(actualText, expectedText)
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 3-Click on div loginErrorMessage - Navigate to page .png')
 
