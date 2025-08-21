@@ -1322,10 +1322,7 @@
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2025-08-20T18:47:01.634227Z</date>
   <millis>1755715621634</millis>
@@ -1921,3 +1918,4 @@ See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json</
   <escapedJava>false</escapedJava>
   <property name="harId">06d316a6-aa96-416c-9d10-4e000a490d1d</property>
 </record>
+</log>

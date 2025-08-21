@@ -1,0 +1,32 @@
+2025-08-21 07:37:14.795 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/WebUI/WebUI_TS
+2025-08-21 07:37:14.829 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Linh Nguyen
+2025-08-21 07:37:14.829 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TAM_Katalon_Demo_Project
+2025-08-21 07:37:14.830 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = linh.nguyen - localhost
+2025-08-21 07:37:14.830 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-08-21 07:37:14.830 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-08-21 07:37:14.830 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-08-21 07:37:14.853 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - testcloud.CheckEnvironment.getEnvironmentType is PASSED
+2025-08-21 07:37:14.969 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-21 07:37:14.969 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/WebUI/CuraHealth_TC
+2025-08-21 07:37:14.994 DEBUG testcase.CuraHealth_TC                   - 1: openBrowser("")
+2025-08-21 07:37:15.036 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-21 07:37:15.037 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[force-device-scale-factor=1, high-dpi-support=1]']
+2025-08-21 07:37:15.047 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 21, 2025 7:37:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+2025-08-21 07:37:17.167 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ebbb8791d72ace88a8f8d04f730030fa
+2025-08-21 07:37:17.168 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.129
+2025-08-21 07:37:17.168 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-08-21 07:37:17.168 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-21 07:37:17.170 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-21 07:37:17.186 DEBUG testcase.CuraHealth_TC                   - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-08-21 07:37:21.689 DEBUG testcase.CuraHealth_TC                   - 3: click(findTestObject("Object Repository/WebUI/Page_CURA Healthcare Service/a_btn-make-appointment"))
+2025-08-21 07:37:22.330 DEBUG testcase.CuraHealth_TC                   - 4: setText(findTestObject("Object Repository/WebUI/Page_CURA Healthcare Service/input_Username"), "John Doe")
+2025-08-21 07:37:23.095 DEBUG testcase.CuraHealth_TC                   - 5: click(findTestObject("Object Repository/WebUI/Page_CURA Healthcare Service/input_Password"))
+2025-08-21 07:37:23.364 DEBUG testcase.CuraHealth_TC                   - 6: setEncryptedText(findTestObject("Object Repository/WebUI/Page_CURA Healthcare Service/input_Password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+2025-08-21 07:37:23.620 DEBUG testcase.CuraHealth_TC                   - 7: click(findTestObject("Object Repository/WebUI/Page_CURA Healthcare Service/button_btn-login"))
+2025-08-21 07:37:24.400 DEBUG testcase.CuraHealth_TC                   - 8: closeBrowser()
+2025-08-21 07:37:24.503 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/WebUI/CuraHealth_TC
+2025-08-21 07:37:24.512 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-08-21 07:37:24.512 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/WebUI/WebUI_TS
+2025-08-21 07:37:24.512 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
