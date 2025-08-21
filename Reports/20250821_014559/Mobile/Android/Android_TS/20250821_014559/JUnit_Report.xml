@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Android_TS" time="21.525" tests="1" failures="0" errors="0">
+   <testsuite name="Android_TS" tests="1" failures="0" errors="0" time="21.525" skipped="0" timestamp="2025-08-20T18:46:02.018Z" hostname="linh.nguyen - localhost" id="Test Suites/Mobile/Android/Android_TS">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 16)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="/Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250821_014559/Mobile/Android/Android_TS/20250821_014559"/>
+         <property name="logFiles" value="/Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250821_014559/Mobile/Android/Android_TS/20250821_014559/execution0.log, /Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250821_014559/Mobile/Android/Android_TS/20250821_014559/console0.log, /Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250821_014559/Mobile/Android/Android_TS/20250821_014559/appium_error.log, /Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250821_014559/Mobile/Android/Android_TS/20250821_014559/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="linh.nguyen - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="userFullName" value="Linh Nguyen"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="projectName" value="TAM_Katalon_Demo_Project"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 16)"/>
+         <property name="deviceOSVersion" value="16"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Android/Android_TestCloud_TC" time="21.375" classname="Test Cases/Mobile/Android/Android_TestCloud_TC" status="PASSED">
+         <system-out><![CDATA[21-08-2025T01:46:02 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/Android_TestCloud_TC: Test Cases/Mobile/Android/Android_TestCloud_TC
+
+21-08-2025T01:46:02 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+21-08-2025T01:46:02 - [TEST_STEP][PASSED] - GLUE = ["bddProject_StepDefinition"]: null
+
+21-08-2025T01:46:02 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started application: '/Users/linh.nguyen/Documents/Mobile Apps/Android/ApiDemos.apk'
+
+21-08-2025T01:46:02 - [TEST_STEP][PASSED] - println(getExecutionProperties()): null
+
+21-08-2025T01:46:02 - [TEST_STEP][PASSED] - remote = getAt("system").getAt("Remote"): null
+
+21-08-2025T01:46:02 - [TEST_STEP][PASSED] - testCaseID = testCaseContext.getTestCaseId(): null
+
+21-08-2025T01:46:02 - [TEST_STEP][PASSED] - println("Environment: " + environment): null
+
+21-08-2025T01:46:02 - [TEST_STEP][PASSED] - if (environment.equals("Web")): null
+
+21-08-2025T01:46:02 - [TEST_STEP][PASSED] - else if (environment.equals("Android") || environment.equals("iOS")): Started application: '/Users/linh.nguyen/Documents/Mobile Apps/Android/ApiDemos.apk'
+
+21-08-2025T01:46:02 - [TEST_STEP][PASSED] - if (remote != null): null
+
+21-08-2025T01:46:02 - [TEST_STEP][PASSED] - else: Started application: '/Users/linh.nguyen/Documents/Mobile Apps/Android/ApiDemos.apk'
+
+21-08-2025T01:46:02 - [TEST_STEP][PASSED] - startApplication(appLocal, true): Started application: '/Users/linh.nguyen/Documents/Mobile Apps/Android/ApiDemos.apk'
+
+21-08-2025T01:46:02 - [MESSAGE][INFO] - Starting application: '/Users/linh.nguyen/Documents/Mobile Apps/Android/ApiDemos.apk'
+
+21-08-2025T01:46:02 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/23.11.0/bin/node"
+
+21-08-2025T01:46:02 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/23.11.0/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/KSE1031.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+21-08-2025T01:46:02 - [MESSAGE][INFO] - APPIUM_HOME: /Users/linh.nguyen/.appium
+
+21-08-2025T01:46:02 - [MESSAGE][INFO] - appium outlog: /Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250821_014559/Mobile/Android/Android_TS/20250821_014559/appium.log
+
+21-08-2025T01:46:02 - [MESSAGE][INFO] - appium errlog: /Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250821_014559/Mobile/Android/Android_TS/20250821_014559/appium_error.log
+
+21-08-2025T01:46:03 - [MESSAGE][INFO] - Appium server started on port 56,460
+
+21-08-2025T01:46:10 - [MESSAGE][WARNING] - Unable to get appium status. Root cause (Cannot invoke "com.google.gson.JsonObject.getAsJsonPrimitive(String)" because the return value of "com.google.gson.JsonObject.getAsJsonObject(String)" is null)
+
+21-08-2025T01:46:10 - [MESSAGE][PASSED] - Started application: '/Users/linh.nguyen/Documents/Mobile Apps/Android/ApiDemos.apk'
+
+21-08-2025T01:46:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.TextView - Views"), 0): Tapped on element 'Object Repository/Mobile/android.widget.TextView - Views'
+
+21-08-2025T01:46:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+21-08-2025T01:46:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.TextView - Views'
+
+21-08-2025T01:46:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.TextView - Hover Events (1)"), 0): Tapped on element 'Object Repository/Mobile/android.widget.TextView - Hover Events (1)'
+
+21-08-2025T01:46:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+21-08-2025T01:46:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.TextView - Hover Events (1)'
+
+21-08-2025T01:46:13 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+21-08-2025T01:46:13 - [MESSAGE][PASSED] - Press back button successfully
+
+21-08-2025T01:46:13 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+21-08-2025T01:46:14 - [MESSAGE][PASSED] - Press back button successfully
+
+21-08-2025T01:46:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.TextView - Text"), 0): Tapped on element 'Object Repository/Mobile/android.widget.TextView - Text'
+
+21-08-2025T01:46:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+21-08-2025T01:46:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.TextView - Text'
+
+21-08-2025T01:46:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.TextView - LogTextBox"), 0): Tapped on element 'Object Repository/Mobile/android.widget.TextView - LogTextBox'
+
+21-08-2025T01:46:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+21-08-2025T01:46:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.TextView - LogTextBox'
+
+21-08-2025T01:46:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile/android.widget.TextView"), "abc", 0): Text 'abc' has been set to element 'Object Repository/Mobile/android.widget.TextView'
+
+21-08-2025T01:46:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+21-08-2025T01:46:19 - [MESSAGE][PASSED] - Text 'abc' has been set to element 'Object Repository/Mobile/android.widget.TextView'
+
+21-08-2025T01:46:19 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+21-08-2025T01:46:19 - [TEST_STEP][PASSED] - testCaseID = testCaseContext.getTestCaseId(): null
+
+21-08-2025T01:46:19 - [TEST_STEP][PASSED] - if (environment.equals("Web")): null
+
+21-08-2025T01:46:19 - [TEST_STEP][PASSED] - else if (environment.equals("Android") || environment.equals("iOS")): Close app successfully
+
+21-08-2025T01:46:19 - [TEST_STEP][PASSED] - switchToNative(OPTIONAL): Switching the driver to NATIVE mode successfully
+
+21-08-2025T01:46:21 - [MESSAGE][PASSED] - Switching the driver to NATIVE mode successfully
+
+21-08-2025T01:46:21 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+21-08-2025T01:46:23 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-08-2025T01:46:02 - [TEST_SUITE][PASSED] - Android_TS: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

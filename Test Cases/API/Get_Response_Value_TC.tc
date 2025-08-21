@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get_Response_Value_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>befcf2de-d1e5-4e68-8fa6-886fa9c6fb47</testCaseGuid>
+</TestCaseEntity>

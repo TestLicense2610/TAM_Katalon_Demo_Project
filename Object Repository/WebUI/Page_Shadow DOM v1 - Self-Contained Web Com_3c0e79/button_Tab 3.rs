@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Tab 3</name>
+   <tag></tag>
+   <elementGuidId>81694f36-1522-4178-874b-7b56cab01d20</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[role=&quot;tab&quot;]:nth-child(3)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(@role = 'tab') and (position() = 3)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=tab[name=&quot;Tab 3&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>51dc6dba-1fae-4bf6-9815-9c950700a1d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>slot</name>
+      <type>Main</type>
+      <value>title</value>
+      <webElementGuid>4b4997a7-74ac-4cb9-aad1-eae6ba889793</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>tab</value>
+      <webElementGuid>9145b7d5-e997-4755-a895-9d36607e97f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>f7ac0618-ed3c-4bd6-a754-ea2a2598923e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>7525169c-b99a-430c-a083-f25f3c6022a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tab 3</value>
+      <webElementGuid>64a755ae-312a-4caf-b3a6-a98e039843cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-62a4e152286b1f1d3426f9f8425ca9b6</value>
+      <webElementGuid>92e753c9-ad09-43b8-bdd4-06c619550819</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(@role = 'tab') and (position() = 3)]</value>
+      <webElementGuid>2edadb6c-20b1-4bbf-b6f3-0bc3e83a4c71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/WebUI/Page_Shadow DOM v1 - Self-Contained Web Com_3c0e79/iframe_iframe</value>
+      <webElementGuid>571efdf5-6e7b-4442-87fe-0e8ede731f54</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(@role = 'tab') and (position() = 3)]</value>
+      <webElementGuid>04de25e5-08ea-4359-a5bf-6045b8e5b0fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Tab 3' or . = 'Tab 3')]</value>
+      <webElementGuid>b36afb3a-4a04-4e64-851f-1c23554a7284</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

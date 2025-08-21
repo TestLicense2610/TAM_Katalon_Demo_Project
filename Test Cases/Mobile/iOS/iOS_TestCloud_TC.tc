@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>iOS_TestCloud_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>TESTCLOUD_NATIVE_MOBILE</recordOption>
+   <testCaseGuid>b8e6f6f6-29fe-4d72-adc3-a891b9ffd700</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,180 @@
+2025-08-21 01:46:01.989 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Mobile/Android/Android_TS
+2025-08-21 01:46:02.025 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Linh Nguyen
+2025-08-21 01:46:02.026 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TAM_Katalon_Demo_Project
+2025-08-21 01:46:02.026 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = linh.nguyen - localhost
+2025-08-21 01:46:02.026 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-08-21 01:46:02.026 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-08-21 01:46:02.027 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-08-21 01:46:02.036 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - testcloud.CheckEnvironment.getEnvironmentType is PASSED
+2025-08-21 01:46:02.168 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-21 01:46:02.168 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Mobile/Android/Android_TestCloud_TC
+[general:[autoApplyNeighborXpaths:false, executionProfile:JustInMind-Production, excludeMobileKeywords:[verifyElementExist, verifyElementNotExist, verifyElementVisible, verifyElementNotVisible, verifyElementAttributeValue, verifyElementHasAttribute, verifyElementNotHasAttribute, verifyElementChecked, verifyElementNotChecked, verifyElementText, waitForElementPresent, waitForElementNotPresent, waitForElementAttributeValue, waitForElementHasAttribute, waitForElementNotHasAttribute, scrollToText], timeout:30.0, proxy:{"proxyOption":"NO_PROXY","proxyServerType":"HTTP","username":"","password":"","proxyServerAddress":"","proxyServerPort":0,"exceptionList":"","applyToDesiredCapabilities":true}, mobileSelfHealingEnabled:true, prioritizedLocatorStrategiesForAndroid:[[left:ATTRIBUTES, right:true], [left:ACCESSIBILITY, right:true], [left:CLASS_NAME, right:false], [left:ID, right:true], [left:NAME, right:true], [left:XPATH, right:true], [left:ANDROID_VIEWTAG, right:true], [left:ANDROID_UI_AUTOMATOR, right:true], [left:CUSTOM, right:false]], prioritizedLocatorStrategiesForIos:[[left:ATTRIBUTES, right:true], [left:ACCESSIBILITY, right:true], [left:CLASS_NAME, right:false], [left:ID, right:true], [left:NAME, right:true], [left:XPATH, right:true], [left:IOS_PREDICATE_STRING, right:true], [left:IOS_CLASS_CHAIN, right:true], [left:CUSTOM, right:false]], defaultFailureHandling:STOP_ON_FAILURE, terminateDriverAfterTestCase:false, report:[takeScreenshotSettings:[enable:false], videoRecorderSettings:[enable:false, useBrowserRecorder:true, videoFormat:WEBM, videoQuality:LOW, recordAllTestCases:false], screenCaptureOption:true, reportFolder:/Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250821_014559/Mobile/Android/Android_TS/20250821_014559], terminateDriverAfterTestSuite:true, testDataInfo:[:]], drivers:[system:[Mobile:[appiumLogFile:appium.log, appiumLogLevel:info, appiumDirectory:/opt/homebrew/lib/node_modules/appium, deviceOS:Android, deviceModel:sdk_gphone64_arm64, devicePlatform:ANDROID_DRIVER, deviceManufacturer:Google, deviceId:emulator-5554, deviceName:emulator-5554 (sdk_gphone64_arm64 - Android 16), deviceOSVersion:16]], preferences:[Mobile:[:]]], globalSmartWaitEnabled:true, smartLocatorEnabled:true, smartLocatorSettingDefaultEnabled:true, logTestSteps:true, hideHostname:false]
+Environment: Android
+2025-08-21 01:46:02.283 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Starting application: '/Users/linh.nguyen/Documents/Mobile Apps/Android/ApiDemos.apk'
+2025-08-21 01:46:02.392 INFO  c.k.k.c.a.driver.AppiumDriverManager     - Detected NodeJS location: "/opt/homebrew/Cellar/node/23.11.0/bin/node"
+2025-08-21 01:46:02.408 INFO  c.k.k.c.a.driver.AppiumDriverManager     - PATH: /opt/homebrew/Cellar/node/23.11.0/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/KSE1031.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+2025-08-21 01:46:02.409 INFO  c.k.k.c.a.driver.AppiumDriverManager     - APPIUM_HOME: /Users/linh.nguyen/.appium
+2025-08-21 01:46:02.409 INFO  c.k.k.c.a.driver.AppiumDriverManager     - appium outlog: /Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250821_014559/Mobile/Android/Android_TS/20250821_014559/appium.log
+2025-08-21 01:46:02.409 INFO  c.k.k.c.a.driver.AppiumDriverManager     - appium errlog: /Users/linh.nguyen/git/TAM_Katalon_Demo_Project/Reports/20250821_014559/Mobile/Android/Android_TS/20250821_014559/appium_error.log
+[38;5;112m[Appium][0m Welcome to Appium v2.18.0 (REV a7ea27a9c81660931a9796edc63d8533dfb1da26)
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m56460[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Attempting to load driver xcuitest...
+2025-08-21 01:46:03.735 INFO  c.k.k.c.a.driver.AppiumDriverManager     - Appium server started on port 56,460
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:56460/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://127.0.0.1:56460/wd/hub (only accessible from the same host)
+	http://172.20.10.107:56460/wd/hub
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@4.2.3 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m   - xcuitest@9.2.4 (automationName 'XCUITest')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 2 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:app":"/Users/linh.nguyen/Documents/Mobile Apps/Android/ApiDemos.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone64_arm64 - Android 16)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"16","appium:systemPort":56459,"appium:udid":"emulator-5554","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"/Users/linh.nguyen/Documents/Mobile Apps/Android/ApiDemos.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone64_arm64 - Android 16)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"16","appium:systemPort":56459,"appium:udid":"emulator-5554"}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/linh.nguyen/.appium/node_modules/appium-uiautomator2-driver
+[38;5;103m[AppiumDriver@e172][0m Appium v2.18.0 creating new AndroidUiautomator2Driver (v4.2.3) session
+[38;5;103m[AppiumDriver@e172][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;103m[AppiumDriver@e172][0m Appium's BaseDriver version is 9.17.0
+[38;5;103m[AppiumDriver@e172][0m AndroidUiautomator2Driver's BaseDriver version is 9.17.0
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m Session created with session id: 8fe8031f-8c1b-468d-a914-15a277152b1a
+[38;5;21m[8fe8031f][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under '/Users/linh.nguyen/.katalon/tools/android_sdk' (newest first):
+[38;5;21m[8fe8031f][0m[38;5;229m[ADB][0m     /Users/linh.nguyen/.katalon/tools/android_sdk/build-tools/29.0.3
+[38;5;21m[8fe8031f][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/linh.nguyen/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m Retrieving device list
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m Using device: emulator-5554
+[38;5;21m[8fe8031f][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/linh.nguyen/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;21m[8fe8031f][0m[38;5;123m[BaseDriver][0m Using local app '/Users/linh.nguyen/Documents/Mobile Apps/Android/ApiDemos.apk'
+[38;5;21m[8fe8031f][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m Relaxing hidden api policy
+[38;5;21m[8fe8031f][0m[38;5;229m[ADB][0m Using 'aapt2' from '/Users/linh.nguyen/.katalon/tools/android_sdk/build-tools/29.0.3/aapt2'
+[38;5;21m[8fe8031f][0m[38;5;229m[ADB][0m Package name: 'io.appium.android.apis'
+[38;5;21m[8fe8031f][0m[38;5;229m[ADB][0m Main activity name: 'io.appium.android.apis.ApiDemos'
+[38;5;21m[8fe8031f][0m[38;5;229m[ADB][0m Using 'apksigner.jar' from '/Users/linh.nguyen/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m Server packages are not going to be (re)installed
+[38;5;21m[8fe8031f][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;21m[8fe8031f][0m[38;5;229m[ADB][0m '/Users/linh.nguyen/Documents/Mobile Apps/Android/ApiDemos.apk' is signed with the default certificate
+[38;5;21m[8fe8031f][0m[38;5;229m[ADB][0m io.appium.android.apis was successfully uninstalled
+[38;5;21m[8fe8031f][0m[38;5;229m[ADB][0m The application at '/Users/linh.nguyen/Documents/Mobile Apps/Android/ApiDemos.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;21m[8fe8031f][0m[38;5;229m[ADB][0m The installation of 'ApiDemos.apk' took 681ms
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m Starting UIAutomator2 server 7.5.2
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m Using UIAutomator2 server from '/Users/linh.nguyen/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.5.2.apk' and test from '/Users/linh.nguyen/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m socket hang up
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m socket hang up
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m Determined the downstream protocol as 'W3C'
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m Screen already unlocked, doing nothing
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m Starting 'io.appium.android.apis/io.appium.android.apis.ApiDemos' and waiting for 'io.appium.android.apis/io.appium.android.apis.ApiDemos'
+2025-08-21 01:46:10.189 WARN  c.k.k.c.a.driver.AppiumRequestService    - Unable to get appium status. Root cause (Cannot invoke "com.google.gson.JsonObject.getAsJsonPrimitive(String)" because the return value of "com.google.gson.JsonObject.getAsJsonObject(String)" is null)
+2025-08-21 01:46:10.200 INFO  c.k.k.c.a.driver.AppiumDriverManager     - deviceId = emulator-5554
+2025-08-21 01:46:10.201 INFO  c.k.k.c.a.driver.AppiumDriverManager     - deviceName = emulator-5554 (sdk_gphone64_arm64 - Android 16)
+2025-08-21 01:46:10.201 INFO  c.k.k.c.a.driver.AppiumDriverManager     - deviceModel = sdk_gphone64_arm64
+2025-08-21 01:46:10.201 INFO  c.k.k.c.a.driver.AppiumDriverManager     - deviceManufacturer = Google
+2025-08-21 01:46:10.202 INFO  c.k.k.c.a.driver.AppiumDriverManager     - deviceOS = Android
+2025-08-21 01:46:10.202 INFO  c.k.k.c.a.driver.AppiumDriverManager     - deviceOSVersion = 16
+2025-08-21 01:46:10.437 DEBUG testcase.Android_TestCloud_TC            - 1: tap(findTestObject("Object Repository/Mobile/android.widget.TextView - Views"), 0)
+[38;5;21m[8fe8031f][0m[38;5;103m[AppiumDriver@e172][0m New AndroidUiautomator2Driver session created successfully, session 8fe8031f-8c1b-468d-a914-15a277152b1a added to master session list
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 200 5875 ms - 1293 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /status 404 6 ms - 211 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts[39m {"implicit":30000}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts 200 2 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/execute/sync[39m {"args":[],"script":"mobile: getSystemBars"}
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m No windows have been found whose title matches to 'NavigationBar'. Assuming it is invisible. Only the following windows are available: ScreenDecorOverlayBottom,ScreenDecorOverlay,EdgeBackGestureHandler0,Taskbar,NotificationShade,StatusBar,ShellDropTarget,InputMethod
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/execute/sync 200 180 ms - 145 
+2025-08-21 01:46:10.479 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts[39m {}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts 200 1 ms - 46 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts[39m {"implicit":0}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts 200 1 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/elements[39m {"value":"//*[@class = 'android.widget.TextView' and (@text = 'Views' or . = 'Views') and @resource-id = 'android:id/text1']","using":"xpath"}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/elements 200 239 ms - 139 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts[39m {"implicit":30000}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts 200 1 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/element/00000000-0000-0229-ffff-ffff00000014/click[39m {"id":"00000000-0000-0229-ffff-ffff00000014"}
+2025-08-21 01:46:12.390 DEBUG testcase.Android_TestCloud_TC            - 2: tap(findTestObject("Object Repository/Mobile/android.widget.TextView - Hover Events (1)"), 0)
+2025-08-21 01:46:12.410 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/element/00000000-0000-0229-ffff-ffff00000014/click 200 1437 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts[39m {}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts 200 2 ms - 46 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts[39m {"implicit":0}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts 200 1 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/elements[39m {"value":"//*[@class = 'android.widget.TextView' and (@text = 'Hover Events' or . = 'Hover Events') and @resource-id = 'android:id/text1']","using":"xpath"}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/elements 200 36 ms - 139 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts[39m {"implicit":30000}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts 200 1 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/element/00000000-0000-022a-ffff-ffff0000002c/click[39m {"id":"00000000-0000-022a-ffff-ffff0000002c"}
+2025-08-21 01:46:13.932 DEBUG testcase.Android_TestCloud_TC            - 3: pressBack()
+2025-08-21 01:46:13.996 DEBUG testcase.Android_TestCloud_TC            - 4: pressBack()
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/element/00000000-0000-022a-ffff-ffff0000002c/click 200 1264 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/execute/sync[39m {"args":[{"keycode":4}],"script":"mobile: pressKey"}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/execute/sync 200 44 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/execute/sync[39m {"args":[{"keycode":4}],"script":"mobile: pressKey"}
+2025-08-21 01:46:14.590 DEBUG testcase.Android_TestCloud_TC            - 5: tap(findTestObject("Object Repository/Mobile/android.widget.TextView - Text"), 0)
+2025-08-21 01:46:14.608 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/execute/sync 200 587 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts[39m {}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts 200 3 ms - 46 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts[39m {"implicit":0}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts 200 2 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/elements[39m {"value":"//*[@class = 'android.widget.TextView' and (@text = 'Text' or . = 'Text') and @resource-id = 'android:id/text1']","using":"xpath"}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/elements 200 1012 ms - 139 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts[39m {"implicit":30000}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts 200 1 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/element/00000000-0000-0229-ffff-ffff00000013/click[39m {"id":"00000000-0000-0229-ffff-ffff00000013"}
+2025-08-21 01:46:17.099 DEBUG testcase.Android_TestCloud_TC            - 6: tap(findTestObject("Object Repository/Mobile/android.widget.TextView - LogTextBox"), 0)
+2025-08-21 01:46:17.113 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/element/00000000-0000-0229-ffff-ffff00000013/click 200 1250 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts[39m {}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts 200 2 ms - 46 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts[39m {"implicit":0}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts 200 1 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/elements[39m {"value":"//*[@class = 'android.widget.TextView' and (@text = 'LogTextBox' or . = 'LogTextBox') and @resource-id = 'android:id/text1']","using":"xpath"}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/elements 200 25 ms - 139 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts[39m {"implicit":30000}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts 200 1 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/element/00000000-0000-022c-ffff-ffff0000004a/click[39m {"id":"00000000-0000-022c-ffff-ffff0000004a"}
+2025-08-21 01:46:18.616 DEBUG testcase.Android_TestCloud_TC            - 7: setText(findTestObject("Object Repository/Mobile/android.widget.TextView"), "abc", 0)
+2025-08-21 01:46:18.644 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/element/00000000-0000-022c-ffff-ffff0000004a/click 200 1252 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts[39m {}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts 200 1 ms - 46 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts[39m {"implicit":0}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts 200 0 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/elements[39m {"value":"//*[@class = 'android.widget.TextView' and @resource-id = 'io.appium.android.apis:id/text' and (@text = '' or . = '')]","using":"xpath"}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/elements 200 21 ms - 139 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts[39m {"implicit":30000}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/timeouts 200 1 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/element/00000000-0000-022d-ffff-ffff00000052/clear[39m {"id":"00000000-0000-022d-ffff-ffff00000052"}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/element/00000000-0000-022d-ffff-ffff00000052/clear 200 9 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/element/00000000-0000-022d-ffff-ffff00000052/click[39m {"id":"00000000-0000-022d-ffff-ffff00000052"}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/element/00000000-0000-022d-ffff-ffff00000052/click 200 533 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/element/00000000-0000-022d-ffff-ffff00000052/value[39m {"text":"abc","value":["a","b","c"],"id":"00000000-0000-022d-ffff-ffff00000052"}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/element/00000000-0000-022d-ffff-ffff00000052/value 200 14 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/contexts[39m {}
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m CDP data for 'WEBVIEW_stetho_com.google.android.apps.messaging' cannot be collected. Original error: timeout of 2000ms exceeded
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m Skipping the webview 'WEBVIEW_stetho_com.google.android.apps.messaging' at '@stetho_com.google.android.apps.messaging_devtools_remote' since it has reported having zero pages
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/contexts 200 2207 ms - 24 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/context[39m {"name":"NATIVE_APP"}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/context 200 1 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/execute/sync[39m {"args":[],"script":"mobile: getCurrentPackage"}
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/execute/sync 200 60 ms - 34 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/execute/sync[39m {"args":[{"appId":"io.appium.android.apis","bundleId":"io.appium.android.apis"}],"script":"mobile: terminateApp"}
+[38;5;21m[8fe8031f][0m[38;5;123m[BaseDriver][0m The following script arguments are not known and will be ignored: bundleId
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m Terminating 'io.appium.android.apis'
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m Querying the state of 'io.appium.android.apis'
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m 'io.appium.android.apis' has been successfully terminated
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a/execute/sync 200 516 ms - 14 
+[38;5;21m[8fe8031f][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/8fe8031f-8c1b-468d-a914-15a277152b1a[39m {}
+[38;5;21m[8fe8031f][0m[38;5;103m[AppiumDriver@e172][0m Removing session 8fe8031f-8c1b-468d-a914-15a277152b1a from our master session list
+[38;5;21m[8fe8031f][0m[38;5;229m[ADB][0m io.appium.android.apis was successfully uninstalled
+[38;5;21m[8fe8031f][0m[38;5;-102m[AndroidUiautomator2Driver@d6a8][0m Restoring hidden api policy to the device default configuration
+2025-08-21 01:46:23.543 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Mobile/Android/Android_TestCloud_TC
+2025-08-21 01:46:23.547 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-08-21 01:46:23.547 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Mobile/Android/Android_TS
+2025-08-21 01:46:23.547 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
