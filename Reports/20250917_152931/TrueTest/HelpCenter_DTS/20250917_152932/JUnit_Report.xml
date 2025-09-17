@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HelpCenter_DTS" time="36.133" tests="2" failures="0" errors="0">
+   <testsuite name="HelpCenter_DTS" tests="2" failures="0" errors="0" time="36.133" skipped="0" timestamp="2025-09-17T08:29:35.010Z" hostname="linh.nguyen - 192.168.1.6" id="Test Suites/TrueTest/HelpCenter_DTS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/linh.nguyen/Downloads/TAM_Katalon_Demo_Project/Reports/20250917_152931/TrueTest/HelpCenter_DTS/20250917_152932"/>
+         <property name="logFiles" value="/Users/linh.nguyen/Downloads/TAM_Katalon_Demo_Project/Reports/20250917_152931/TrueTest/HelpCenter_DTS/20250917_152932/execution0.log, /Users/linh.nguyen/Downloads/TAM_Katalon_Demo_Project/Reports/20250917_152931/TrueTest/HelpCenter_DTS/20250917_152932/console0.log"/>
+         <property name="attachments" value="keyes/keyes-TC3-TC03 Verify the Tree View_visual_checkpoint.png, keyes/keyes-TC5-TC04 Verify QnA Categories_visual_checkpoint.png"/>
+         <property name="hostName" value="linh.nguyen - 192.168.1.6"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+         <property name="browser" value="Chrome 139.0.7258.155"/>
+         <property name="userFullName" value="tolinhnguyen2610"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="855fbb25ec840c0f70aff727c9e6d4b2"/>
+         <property name="projectName" value="TAM_Katalon_Demo_Project"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/AI-Generated/JustInMind-Production/TC3-TC03 Verify the Tree View" time="14.134" classname="Test Cases/AI-Generated/JustInMind-Production/TC3-TC03 Verify the Tree View" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) heade...":"6"}]]></property>
+         </properties>
+         <system-out><![CDATA[17-09-2025T15:29:35 - [TEST_CASE][PASSED] - Test Cases/AI-Generated/JustInMind-Production/TC3-TC03 Verify the Tree View: Test Cases/AI-Generated/JustInMind-Production/TC3-TC03 Verify the Tree View
+
+17-09-2025T15:29:35 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+17-09-2025T15:29:35 - [TEST_STEP][PASSED] - GLUE = ["bddProject_StepDefinition"]: null
+
+17-09-2025T15:29:35 - [TEST_STEP][PASSED] - Start setup action : setup: Method 'setup' complete successfully
+
+17-09-2025T15:29:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-09-2025T15:29:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-09-2025T15:29:35 - [MESSAGE][INFO] - User set preference: ['args', '[force-device-scale-factor=1, high-dpi-support=1]']
+
+17-09-2025T15:29:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-09-2025T15:29:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-09-2025T15:29:37 - [TEST_STEP][WARNING] - setViewPortSize(1920, 1080): Viewport size mismatch (1920x1920).
+
+17-09-2025T15:29:38 - [MESSAGE][INFO] - Viewport size mismatch (1,920x805). Trying to set it again.
+
+17-09-2025T15:29:39 - [MESSAGE][WARNING] - Viewport size mismatch (1920x1920).
+
+17-09-2025T15:29:39 - [MESSAGE][PASSED] - Method 'setup' complete successfully
+
+17-09-2025T15:29:39 - [TEST_STEP][PASSED] - reportLocation = getReportFolder(): null
+
+17-09-2025T15:29:39 - [TEST_STEP][PASSED] - "Initialize test session: Open browser and set view port": null
+
+17-09-2025T15:29:39 - [TEST_STEP][PASSED] - TrueTestScripts.navigate("/support/exercises-data"): Delayed 3 second(s)
+
+17-09-2025T15:29:43 - [MESSAGE][PASSED] - Navigate to 'https://www.justinmind.com/support/exercises-data' successfully
+
+17-09-2025T15:29:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-09-2025T15:29:46 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Page_support_exercises_data/link_displayingDataMasterRecords")): Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support_exercises_data/link_displayingDataMasterRecords' is clicked on
+
+17-09-2025T15:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support_exercises_data/link_displayingDataMasterRecords' is clicked on
+
+17-09-2025T15:29:46 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Page_support_exercises_data/header_displayingDataMasterRecords")): Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support_exercises_data/header_displayingDataMasterRecords' is clicked on
+
+17-09-2025T15:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support_exercises_data/header_displayingDataMasterRecords' is clicked on
+
+17-09-2025T15:29:46 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Page_support_exercises_data/link_properties")): Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support_exercises_data/link_properties' is clicked on
+
+17-09-2025T15:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support_exercises_data/link_properties' is clicked on
+
+17-09-2025T15:29:46 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Dynamic Objects/Page_support_exercises_data/header_tableOptions", ["header_tableOptions_h2NthChild":header_tableOptions_h2NthChild, "header_tableOptions_h2NthOfType":header_tableOptions_h2NthOfType])): Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_support_exercises_data/header_tableOptions' is clicked on
+
+17-09-2025T15:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_support_exercises_data/header_tableOptions' is clicked on
+
+17-09-2025T15:29:46 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Page_support_exercises_data/link_customizingDataList")): Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support_exercises_data/link_customizingDataList' is clicked on
+
+17-09-2025T15:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support_exercises_data/link_customizingDataList' is clicked on
+
+17-09-2025T15:29:47 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Dynamic Objects/Page_support_exercises_data/header_tableOptions", ["header_tableOptions_h2NthChild":header_tableOptions_h2NthChild_1, "header_tableOptions_h2NthOfType":header_tableOptions_h2NthOfType_1])): Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_support_exercises_data/header_tableOptions' is clicked on
+
+17-09-2025T15:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_support_exercises_data/header_tableOptions' is clicked on
+
+17-09-2025T15:29:47 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Page_support_exercises_data/link_sortColumns")): Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support_exercises_data/link_sortColumns' is clicked on
+
+17-09-2025T15:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support_exercises_data/link_sortColumns' is clicked on
+
+17-09-2025T15:29:47 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Dynamic Objects/Page_support_exercises_data/header_tableOptions", ["header_tableOptions_h2NthChild":header_tableOptions_h2NthChild_2, "header_tableOptions_h2NthOfType":header_tableOptions_h2NthOfType_2])): Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_support_exercises_data/header_tableOptions' is clicked on
+
+17-09-2025T15:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_support_exercises_data/header_tableOptions' is clicked on
+
+17-09-2025T15:29:47 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Page_support_exercises_data/link_filterRows")): Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support_exercises_data/link_filterRows' is clicked on
+
+17-09-2025T15:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support_exercises_data/link_filterRows' is clicked on
+
+17-09-2025T15:29:47 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Dynamic Objects/Page_support_exercises_data/header_tableOptions", ["header_tableOptions_h2NthChild":header_tableOptions_h2NthChild_3, "header_tableOptions_h2NthOfType":header_tableOptions_h2NthOfType_3])): Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_support_exercises_data/header_tableOptions' is clicked on
+
+17-09-2025T15:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_support_exercises_data/header_tableOptions' is clicked on
+
+17-09-2025T15:29:47 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Page_support_exercises_data/item_selectRows")): Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support_exercises_data/item_selectRows' is clicked on
+
+17-09-2025T15:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support_exercises_data/item_selectRows' is clicked on
+
+17-09-2025T15:29:47 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Page_support_exercises_data/link_selectRows")): Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support_exercises_data/link_selectRows' is clicked on
+
+17-09-2025T15:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_support_exercises_data/link_selectRows' is clicked on
+
+17-09-2025T15:29:47 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Dynamic Objects/Page_support_exercises_data/header_tableOptions", ["header_tableOptions_h2NthChild":header_tableOptions_h2NthChild_4, "header_tableOptions_h2NthOfType":header_tableOptions_h2NthOfType_4])): Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_support_exercises_data/header_tableOptions' is clicked on
+
+17-09-2025T15:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_support_exercises_data/header_tableOptions' is clicked on
+
+17-09-2025T15:29:47 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("TC3-TC03 Verify the Tree View_visual_checkpoint"): Taking screenshot successfully
+
+17-09-2025T15:29:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-09-2025T15:29:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-TC3-TC03 Verify the Tree View_visual_checkpoint.png]]
+
+17-09-2025T15:29:49 - [TEST_STEP][PASSED] - Start tear down : teardown: Method 'teardown' complete successfully
+
+17-09-2025T15:29:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-09-2025T15:29:49 - [MESSAGE][PASSED] - Browser is closed
+
+17-09-2025T15:29:49 - [MESSAGE][PASSED] - Method 'teardown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AI-Generated/JustInMind-Production/TC5-TC04 Verify QnA Categories" time="21.822" classname="Test Cases/AI-Generated/JustInMind-Production/TC5-TC04 Verify QnA Categories" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) i_ide...":"9423","(Default) i_top...":"9559"}]]></property>
+         </properties>
+         <system-out><![CDATA[17-09-2025T15:29:49 - [TEST_CASE][PASSED] - Test Cases/AI-Generated/JustInMind-Production/TC5-TC04 Verify QnA Categories: Test Cases/AI-Generated/JustInMind-Production/TC5-TC04 Verify QnA Categories
+
+17-09-2025T15:29:49 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+17-09-2025T15:29:49 - [TEST_STEP][PASSED] - GLUE = ["bddProject_StepDefinition"]: null
+
+17-09-2025T15:29:49 - [TEST_STEP][PASSED] - Start setup action : setup: Method 'setup' complete successfully
+
+17-09-2025T15:29:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-09-2025T15:29:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-09-2025T15:29:49 - [MESSAGE][INFO] - User set preference: ['args', '[force-device-scale-factor=1, high-dpi-support=1]']
+
+17-09-2025T15:29:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-09-2025T15:29:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-09-2025T15:29:50 - [TEST_STEP][WARNING] - setViewPortSize(1920, 1080): Viewport size mismatch (1920x1920).
+
+17-09-2025T15:29:50 - [MESSAGE][INFO] - Viewport size mismatch (1,920x805). Trying to set it again.
+
+17-09-2025T15:29:51 - [MESSAGE][WARNING] - Viewport size mismatch (1920x1920).
+
+17-09-2025T15:29:51 - [MESSAGE][PASSED] - Method 'setup' complete successfully
+
+17-09-2025T15:29:51 - [TEST_STEP][PASSED] - reportLocation = getReportFolder(): null
+
+17-09-2025T15:29:51 - [TEST_STEP][PASSED] - "Initialize test session: Open browser and set view port": null
+
+17-09-2025T15:29:51 - [TEST_STEP][PASSED] - TrueTestScripts.navigate("/community"): Delayed 3 second(s)
+
+17-09-2025T15:29:56 - [MESSAGE][PASSED] - Navigate to 'https://www.justinmind.com/community' successfully
+
+17-09-2025T15:29:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-09-2025T15:29:59 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Page_community/link_uiLibrariesAndWidgets")): Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_community/link_uiLibrariesAndWidgets' is clicked on
+
+17-09-2025T15:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_community/link_uiLibrariesAndWidgets' is clicked on
+
+17-09-2025T15:30:03 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Page_community_topics_all_status_all_category_sort_updated_page/link_allTopics")): Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_community_topics_all_status_all_category_sort_updated_page/link_allTopics' is clicked on
+
+17-09-2025T15:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_community_topics_all_status_all_category_sort_updated_page/link_allTopics' is clicked on
+
+17-09-2025T15:30:05 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_all_status_all_category_all_sort_updated_page/i_topicStatus", ["i_topicStatus_id":i_topicStatus_id, "i_topicStatus_topic":i_topicStatus_topic])): Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_all_status_all_category_all_sort_updated_page/i_topicStatus' is clicked on
+
+17-09-2025T15:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_all_status_all_category_all_sort_updated_page/i_topicStatus' is clicked on
+
+17-09-2025T15:30:05 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_all_status_all_category_all_sort_updated_page/i_topicStatus", ["i_topicStatus_id":i_topicStatus_id_1, "i_topicStatus_topic":i_topicStatus_topic_1])): Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_all_status_all_category_all_sort_updated_page/i_topicStatus' is clicked on
+
+17-09-2025T15:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_all_status_all_category_all_sort_updated_page/i_topicStatus' is clicked on
+
+17-09-2025T15:30:05 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Page_community_topics_all_status_all_category_all_sort_updated_page/link_problems")): Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_community_topics_all_status_all_category_all_sort_updated_page/link_problems' is clicked on
+
+17-09-2025T15:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_community_topics_all_status_all_category_all_sort_updated_page/link_problems' is clicked on
+
+17-09-2025T15:30:07 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_problem_status_all_category_all_sort_updated/i_topicStatus", ["i_topicStatus_id":i_topicStatus_id_2, "i_topicStatus_topic":i_topicStatus_topic_2])): Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_problem_status_all_category_all_sort_updated/i_topicStatus' is clicked on
+
+17-09-2025T15:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_problem_status_all_category_all_sort_updated/i_topicStatus' is clicked on
+
+17-09-2025T15:30:07 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_problem_status_all_category_all_sort_updated/i_topicStatus", ["i_topicStatus_id":i_topicStatus_id_3, "i_topicStatus_topic":i_topicStatus_topic_3])): Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_problem_status_all_category_all_sort_updated/i_topicStatus' is clicked on
+
+17-09-2025T15:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_problem_status_all_category_all_sort_updated/i_topicStatus' is clicked on
+
+17-09-2025T15:30:07 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Page_community_topics_problem_status_all_category_all_sort_updated/link_questions")): Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_community_topics_problem_status_all_category_all_sort_updated/link_questions' is clicked on
+
+17-09-2025T15:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_community_topics_problem_status_all_category_all_sort_updated/link_questions' is clicked on
+
+17-09-2025T15:30:08 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_question_status_all_category_all_sort_updated/i_topicStatusIcon", ["i_topicStatusIcon_id":i_topicStatusIcon_id, "i_topicStatusIcon_topic":i_topicStatusIcon_topic])): Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_question_status_all_category_all_sort_updated/i_topicStatusIcon' is clicked on
+
+17-09-2025T15:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_question_status_all_category_all_sort_updated/i_topicStatusIcon' is clicked on
+
+17-09-2025T15:30:08 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_question_status_all_category_all_sort_updated/i_topicStatusIcon", ["i_topicStatusIcon_id":i_topicStatusIcon_id_1, "i_topicStatusIcon_topic":i_topicStatusIcon_topic_1])): Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_question_status_all_category_all_sort_updated/i_topicStatusIcon' is clicked on
+
+17-09-2025T15:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_question_status_all_category_all_sort_updated/i_topicStatusIcon' is clicked on
+
+17-09-2025T15:30:09 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Page_community_topics_question_status_all_category_all_sort_updated/link_ideas")): Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_community_topics_question_status_all_category_all_sort_updated/link_ideas' is clicked on
+
+17-09-2025T15:30:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Page_community_topics_question_status_all_category_all_sort_updated/link_ideas' is clicked on
+
+17-09-2025T15:30:10 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_idea_status_all_category_all_sort_updated_page/i_ideaStatus", ["i_ideaStatus_id":i_ideaStatus_id, "i_ideaStatus_topic":i_ideaStatus_topic])): Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_idea_status_all_category_all_sort_updated_page/i_ideaStatus' is clicked on
+
+17-09-2025T15:30:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_idea_status_all_category_all_sort_updated_page/i_ideaStatus' is clicked on
+
+17-09-2025T15:30:10 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_idea_status_all_category_all_sort_updated_page/i_ideaStatus", ["i_ideaStatus_id":i_ideaStatus_id_1, "i_ideaStatus_topic":i_ideaStatus_topic_1])): Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_idea_status_all_category_all_sort_updated_page/i_ideaStatus' is clicked on
+
+17-09-2025T15:30:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AI-Generated/JustInMind-Production/Dynamic Objects/Page_community_topics_idea_status_all_category_all_sort_updated_page/i_ideaStatus' is clicked on
+
+17-09-2025T15:30:10 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("TC5-TC04 Verify QnA Categories_visual_checkpoint"): Taking screenshot successfully
+
+17-09-2025T15:30:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-09-2025T15:30:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-TC5-TC04 Verify QnA Categories_visual_checkpoint.png]]
+
+17-09-2025T15:30:11 - [TEST_STEP][PASSED] - Start tear down : teardown: Method 'teardown' complete successfully
+
+17-09-2025T15:30:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-09-2025T15:30:11 - [MESSAGE][PASSED] - Browser is closed
+
+17-09-2025T15:30:11 - [MESSAGE][PASSED] - Method 'teardown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-09-2025T15:29:35 - [TEST_SUITE][PASSED] - HelpCenter_DTS: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

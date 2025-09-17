@@ -1,0 +1,63 @@
+2025-09-17 15:32:04.118 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TrueTest/HelpCenter_DTS
+2025-09-17 15:32:04.151 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = tolinhnguyen2610
+2025-09-17 15:32:04.151 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TAM_Katalon_Demo_Project
+2025-09-17 15:32:04.152 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = linh.nguyen - 192.168.1.6
+2025-09-17 15:32:04.152 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-09-17 15:32:04.152 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.6
+2025-09-17 15:32:04.152 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-09-17 15:32:04.164 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - testcloud.CheckEnvironment.getEnvironmentType is PASSED
+2025-09-17 15:32:04.299 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-17 15:32:04.299 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/JustInMind-Production/TC3-TC03 Verify the Tree View
+2025-09-17 15:32:04.324 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthChild = 8
+2025-09-17 15:32:04.328 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthChild_1 = 11
+2025-09-17 15:32:04.332 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthChild_2 = 14
+2025-09-17 15:32:04.336 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthChild_3 = 20
+2025-09-17 15:32:04.341 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthChild_4 = 32
+2025-09-17 15:32:04.345 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthOfType = 2
+2025-09-17 15:32:04.349 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthOfType_1 = 3
+2025-09-17 15:32:04.353 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthOfType_2 = 4
+2025-09-17 15:32:04.357 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthOfType_3 = 5
+2025-09-17 15:32:04.361 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) header_tableOptions_h2NthOfType_4 = 6
+2025-09-17 15:32:04.465 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-09-17 15:32:04.479 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Sep 17, 2025 3:32:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+2025-09-17 15:32:05.864 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c9d5acc324b17e5154182a9855c30b20
+2025-09-17 15:32:05.865 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.155
+2025-09-17 15:32:05.865 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-09-17 15:32:05.865 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-09-17 15:32:05.867 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-09-17 15:32:12.259 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-17 15:32:12.969 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/JustInMind-Production/TC3-TC03 Verify the Tree View
+2025-09-17 15:32:12.972 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-17 15:32:12.972 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/JustInMind-Production/TC5-TC04 Verify QnA Categories
+2025-09-17 15:32:12.980 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_ideaStatus_id = topic-7835
+2025-09-17 15:32:12.983 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_ideaStatus_id_1 = topic-9423
+2025-09-17 15:32:12.986 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_ideaStatus_topic = 7835
+2025-09-17 15:32:12.988 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_ideaStatus_topic_1 = 9423
+2025-09-17 15:32:12.990 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatusIcon_id = topic-1303
+2025-09-17 15:32:12.992 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatusIcon_id_1 = topic-9554
+2025-09-17 15:32:12.994 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatusIcon_topic = 1303
+2025-09-17 15:32:12.996 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatusIcon_topic_1 = 9554
+2025-09-17 15:32:12.996 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatus_id = topic-1303
+2025-09-17 15:32:12.999 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatus_id_1 = topic-8431
+2025-09-17 15:32:12.999 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatus_id_2 = topic-8431
+2025-09-17 15:32:13.001 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatus_id_3 = topic-9559
+2025-09-17 15:32:13.002 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatus_topic = 1303
+2025-09-17 15:32:13.005 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatus_topic_1 = 8431
+2025-09-17 15:32:13.005 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatus_topic_2 = 8431
+2025-09-17 15:32:13.008 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) i_topicStatus_topic_3 = 9559
+2025-09-17 15:32:13.041 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-09-17 15:32:13.041 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Sep 17, 2025 3:32:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+2025-09-17 15:32:13.800 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ab09404c0176e1b0f1c10cd8e8981e61
+2025-09-17 15:32:13.800 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.155
+2025-09-17 15:32:13.801 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-09-17 15:32:13.801 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-09-17 15:32:13.801 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-09-17 15:32:30.921 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-09-17 15:32:31.076 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/JustInMind-Production/TC5-TC04 Verify QnA Categories
+2025-09-17 15:32:31.087 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-09-17 15:32:31.087 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TrueTest/HelpCenter_DTS
+2025-09-17 15:32:31.087 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
