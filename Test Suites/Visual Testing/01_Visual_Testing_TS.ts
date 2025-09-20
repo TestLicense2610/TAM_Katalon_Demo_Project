@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>08131bff-cc4b-4ddf-a34f-a8f5b2a3db27</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Visual Testing/01_Vistual_Testing_Mobile_Web_App_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -28,7 +28,7 @@
    <testCaseLink>
       <guid>3ef605a6-d866-47b8-b897-f2e5a2a3c54e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Visual Testing/03_VisualTesting_Desktop_Web_App_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
