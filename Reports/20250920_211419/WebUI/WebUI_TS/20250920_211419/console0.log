@@ -1,0 +1,31 @@
+2025-09-20 21:14:21.864 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/WebUI/WebUI_TS
+2025-09-20 21:14:21.899 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Linh Nguyen
+2025-09-20 21:14:21.899 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TAM_Katalon_Demo_Project
+2025-09-20 21:14:21.900 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = linh.nguyen - 192.168.1.6
+2025-09-20 21:14:21.900 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-09-20 21:14:21.900 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.6
+2025-09-20 21:14:21.900 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-09-20 21:14:21.908 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - testcloud.CheckEnvironment.getEnvironmentType is PASSED
+2025-09-20 21:14:22.040 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-20 21:14:22.040 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/WebUI/CuraHealth_TC
+2025-09-20 21:14:22.082 DEBUG testcase.CuraHealth_TC                   - 1: openBrowser("")
+2025-09-20 21:14:22.134 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-09-20 21:14:22.149 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Sep 20, 2025 9:14:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+2025-09-20 21:14:24.349 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 851d414e2db2deb31b7561ab9c2748a2
+2025-09-20 21:14:24.349 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.155
+2025-09-20 21:14:24.350 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-09-20 21:14:24.350 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-09-20 21:14:24.352 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-09-20 21:14:24.368 DEBUG testcase.CuraHealth_TC                   - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-09-20 21:14:27.844 DEBUG testcase.CuraHealth_TC                   - 3: click(findTestObject("Object Repository/WebUI/Page_CURA Healthcare Service/a_btn-make-appointment"))
+2025-09-20 21:14:28.528 DEBUG testcase.CuraHealth_TC                   - 4: setText(findTestObject("Object Repository/WebUI/Page_CURA Healthcare Service/input_Username"), "John Doe")
+2025-09-20 21:14:29.300 DEBUG testcase.CuraHealth_TC                   - 5: click(findTestObject("Object Repository/WebUI/Page_CURA Healthcare Service/input_Password"))
+2025-09-20 21:14:29.571 DEBUG testcase.CuraHealth_TC                   - 6: setEncryptedText(findTestObject("Object Repository/WebUI/Page_CURA Healthcare Service/input_Password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+2025-09-20 21:14:29.836 DEBUG testcase.CuraHealth_TC                   - 7: click(findTestObject("Object Repository/WebUI/Page_CURA Healthcare Service/button_btn-login"))
+2025-09-20 21:14:30.102 DEBUG testcase.CuraHealth_TC                   - 8: closeBrowser()
+2025-09-20 21:14:30.197 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/WebUI/CuraHealth_TC
+2025-09-20 21:14:30.207 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-09-20 21:14:30.207 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/WebUI/WebUI_TS
+2025-09-20 21:14:30.207 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
