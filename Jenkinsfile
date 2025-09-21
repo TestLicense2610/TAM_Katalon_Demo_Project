@@ -1,5 +1,9 @@
 pipeline {
-    agent any 
+    agent {
+        docker {
+            image 'katalonstudio/katalon'
+        }
+    }
 
     stages {
         stage('Checkout') {
