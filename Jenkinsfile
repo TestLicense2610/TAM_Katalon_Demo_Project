@@ -16,7 +16,7 @@ pipeline {
         stage('WebUI Testing') {
             steps {
                 sh '''
-                    katalonc.sh -projectPath=/tmp/project -browserType=Chrome -retry=0 -statusDelay=15 -testSuitePath="Test Suites/WebUI/WebUI_TS" -apiKey=485fb30e-b19d-414f-97db-0a20876475d3 -serverUrl=https://testops-support.katalon.info -executionProfile=JustInMind-Production -orgID=1 -testOpsReleaseId=6 -testOpsProjectId=6 --config -webui.autoUpdateDrivers=true
+                    katalonc.sh -projectPath=/tmp/project -browserType=Chrome -retry=0 -statusDelay=15 -testSuitePath="Test Suites/WebUI/WebUI_TS" -apiKey=1aa04c25-f8c5-4bbc-9946-ff23c242b0b1 -executionProfile=JustInMind-Production --config -webui.autoUpdateDrivers=true
                 '''
             }
         }
