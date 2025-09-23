@@ -15,9 +15,7 @@ pipeline {
 
         stage('WebUI Testing') {
             steps {
-                sh '''
                     sh 'docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project -browserType=Chrome -retry=0 -statusDelay=15 -testSuitePath="Test Suites/WebUI/WebUI_TS" -apiKey=485fb30e-b19d-414f-97db-0a20876475d3 -serverUrl=https://admin-support.katalon.info -testOps.serverUrl==https://testops-support.katalon.info -executionProfile=JustInMind-Production -orgID=1 -testOpsReleaseId=6 -testOpsProjectId=6 --config -webui.autoUpdateDrivers=true '
-                '''
             }
         }
 
